@@ -1,0 +1,17 @@
+{
+  "version": "1.1",
+  "titulo": "CoreOS 1.1 · Edición Corelux",
+  "fecha": "2026-10-13",
+  "notas": [
+    "Una actualización que mejora la presentación del sistema y la experiencia de llamadas en la isla dinámica.",
+    "Nueva identidad Corelux: icono exclusivo y nombre de la edición en la sección de actualizaciones.",
+    "Llamadas entrantes más elegantes: la isla se despliega con botones verde para atender y rojo para rechazar, acompañados de iconos de teléfono.",
+    "Información del contacto: muestra el nombre y la foto de perfil cuando la aplicación los proporciona.",
+    "Privacidad: el modo privado oculta el nombre y la imagen del contacto.",
+    "Cierre automático: los avisos desaparecen cuando la aplicación los retira, evitando tarjetas de llamadas antiguas.",
+    "Compatibilidad: atender y rechazar desde la isla requiere que la aplicación proporcione esas acciones. Cuando no están disponibles, se puede abrir su ventana para responder desde allí."
+  ],
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.1/corelab-core_1.1_all.deb",
+  "sha256": "94d3eae21ef2da39126b320cd8f86c96b04895664fe21c953c97b95727a0bf15",
+  "tamaño": 9907112
+}
