@@ -1,18 +1,14 @@
 {
-  "version": "1.2",
-  "titulo": "CoreOS 1.2 · Edición Corelux",
+  "version": "1.2.1",
+  "titulo": "corelabOS 1.2.1",
   "fecha": "2026-10-14",
   "notas": [
     "CoreOS V1.2 · Edición Corelux",
     "Isla dinámica renovada, más elegante e intuitiva.",
     "Llamadas entrantes con foto de perfil, nombre y botones de atender y rechazar cuando la app los permite.",
-    "Ondas de audio unificadas en verde, naranja y blanco, sincronizadas con la llamada y el micrófono.",
-    "Llamadas compactas con ondas pequeñas visibles y controles ampliados al tocar la isla.",
-    "Eve permanece compacta mientras piensa. Tocarla o deslizar hacia abajo abre la conversación completa.",
-    "Música y actividades compatibles se expanden mediante toque o gesto.",
-    "Los mensajes mantienen la vista expandida de su contenido."
+    "Ondas de audio unificadas en verde, naranja y blanco, sincronizadas con la llamada y el micrófono."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.2/corelab-core_1.2_all.deb",
-  "sha256": "c8cfb5639bfceb7f6b861f70f57aa5bd5df01e38200547a5027f421abec376f2",
-  "tamaño": 10280352
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.2.1/corelab-core_1.2.1_all.deb",
+  "sha256": "a172986a89986d271db09bf7ccac6370d2060c06530eb386303266ecd416b68a",
+  "tamaño": 10288540
 }
