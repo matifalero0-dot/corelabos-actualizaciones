@@ -1,14 +1,11 @@
 {
-  "version": "1.2.3",
-  "titulo": "corelabOS 1.2.3",
+  "version": "1.2.4",
+  "titulo": "corelabOS 1.2.4",
   "fecha": "2026-10-15",
   "notas": [
-    "Mejoras en todo (Importante Instálala)",
-    "Rendimiento mejor",
-    "Mejoras de seguridad",
-    "Eve responde mejor"
+    "prueba mejor"
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.2.3/corelab-core_1.2.3_all.deb",
-  "sha256": "a9d73c3ab4a03ee9dac20f8f02c43e93aec3b2d2794b42713c5fe151c52d5407",
-  "tamaño": 10362676
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.2.4/corelab-core_1.2.4_all.deb",
+  "sha256": "7521969e92d9181f56d10e8812de954ebb0a411d1915a0ca967877ac76e3843f",
+  "tamaño": 10351248
 }
