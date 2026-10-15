@@ -1,11 +1,18 @@
 {
-  "version": "1.2.4",
-  "titulo": "corelabOS 1.2.4",
+  "version": "1.2.5",
+  "titulo": "CoreOS 1.2.5 · Edición Corelux",
   "fecha": "2026-10-15",
   "notas": [
-    "prueba mejor"
+    "Isla dinámica y dock: recuperación de inicio, transparencia y animaciones fluidas. Widgets con transición de apertura y actualización de datos sin solaparse.",
+    "Drivers: detección de paquetes faltantes y errores de repositorio, fecha de comprobación, avisos nativos y progreso en la isla. Instalación sin eliminar otros paquetes.",
+    "Actualizaciones CoreOS: mejoras en la creación de puntos de restauración, registro de errores y opción explícita para continuar sin copia cuando no se pueda crear.",
+    "Mensajes: ventanas con nombre de la app, retrato del contacto, permisos nativos y acceso integrado a WhatsApp, Instagram y TikTok.",
+    "Música: controles vinculados al reproductor correcto y avance confirmado; vista CoreOS para controlar Spotify y abrir su biblioteca oficial.",
+    "Ajustes reorganizados, detección de Brave y ayuda contextual de Eve. Mejoras en adaptadores de IA y conexión de cuenta ChatGPT mediante autorización oficial.",
+    "Artwork: duplicación de capas con deshacer y todos los fotogramas; herramientas compactas e integración contextual de Eve en las apps creativas.",
+    "Transición de arranque y sesión, compatibilidad GTK 3/4 y marcos CoreOS para aplicaciones externas compatibles."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.2.4/corelab-core_1.2.4_all.deb",
-  "sha256": "7521969e92d9181f56d10e8812de954ebb0a411d1915a0ca967877ac76e3843f",
-  "tamaño": 10351248
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.2.5/corelab-core_1.2.5_all.deb",
+  "sha256": "73affbb933979ab9899cddebb8d2599302e6cd432bd11de38f3d04f440bbc4e9",
+  "tamaño": 10377036
 }
