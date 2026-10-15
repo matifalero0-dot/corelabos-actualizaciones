@@ -1,14 +1,14 @@
 {
-  "version": "1.2.1",
-  "titulo": "corelabOS 1.2.1",
-  "fecha": "2026-10-14",
+  "version": "1.2.3",
+  "titulo": "corelabOS 1.2.3",
+  "fecha": "2026-10-15",
   "notas": [
-    "CoreOS V1.2 · Edición Corelux",
-    "Isla dinámica renovada, más elegante e intuitiva.",
-    "Llamadas entrantes con foto de perfil, nombre y botones de atender y rechazar cuando la app los permite.",
-    "Ondas de audio unificadas en verde, naranja y blanco, sincronizadas con la llamada y el micrófono."
+    "Mejoras en todo (Importante Instálala)",
+    "Rendimiento mejor",
+    "Mejoras de seguridad",
+    "Eve responde mejor"
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.2.1/corelab-core_1.2.1_all.deb",
-  "sha256": "a172986a89986d271db09bf7ccac6370d2060c06530eb386303266ecd416b68a",
-  "tamaño": 10288540
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.2.3/corelab-core_1.2.3_all.deb",
+  "sha256": "a9d73c3ab4a03ee9dac20f8f02c43e93aec3b2d2794b42713c5fe151c52d5407",
+  "tamaño": 10362676
 }
