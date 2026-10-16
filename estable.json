@@ -1,17 +1,19 @@
 {
-  "version": "1.2.7",
-  "titulo": "CoreOS 1.2.7 · Edición Corelux",
+  "version": "1.2.8",
+  "titulo": "CoreOS 1.2.8 · Edición Corelux",
   "fecha": "2026-10-16",
   "notas": [
-    "Ventanas: eliminados los márgenes exteriores excesivos del marco GTK y el fondo oscuro que ocupaba espacio alrededor de la cabecera y el contenido. Contornos compactos en GTK 3 y GTK 4.",
-    "Dock: corregida la superficie que quedaba visible al ocultarse, tanto con compositor como durante su recuperación. Se conserva la ampliación suave de iconos y el borde para volver a mostrarlo.",
-    "Composición: los modos Juego y Ahorro mantienen las transparencias y las animaciones propias. Inicio sincronizado y recuperación del compositor si deja de presentar la pantalla.",
-    "Isla dinámica: renderizado de su lienzo Cairo independiente del renderizador 3D de las demás apps; recorte de la superficie visible y transiciones propias sin una segunda animación del compositor.",
-    "Widgets: cuadro completo de contenido antes de presentarlo, sin reapilado al perder el foco. Se conservan los datos durante un error de dibujo y se evitan refrescos repetidos después de abrir su aplicación.",
-    "Compatibilidad gráfica: perfil XRender para Nouveau y respaldo si falla GLX. Se mantienen las texturas del escritorio al abrir o maximizar apps, sin retirar temporalmente la composición.",
-    "Incluye las reparaciones de V1.2.6 para splash, initramfs, descargas firmadas, recuperación de paquetes, drivers, fecha y hora, Mensajes y centro de control."
+    "Isla dinámica: corregido el lienzo GTK 4 que conservaba el dibujo de reposo aunque llegaran actividades. Se actualizan música, Eve, notificaciones, llamadas y progreso; se mantienen las transiciones propias.",
+    "Música en la isla: detección asíncrona de reproductores MPRIS, reintentos cuando el navegador inicia su interfaz tarde y actualización de metadatos invalidados. La actividad sigue visible con el navegador en primer plano y puede aparecer antes de recibir el título.",
+    "Ondas: la música sigue el audio real disponible; cuando no hay señal de captura permanece neutral. Una nueva actividad reactiva una isla recogida previamente.",
+    "Dock: recuperación del hover si se pierde el evento de salida del puntero. Revisión del ocultamiento inteligente, geometría correcta sin compositor y conservación de las animaciones para aparecer y desaparecer.",
+    "Eve local: unificado el transporte con Eve Chat, sin solicitar un alias de modelo inexistente. Corregidos streaming lento, cancelación durante la carga y detección del cierre prematuro del motor. Las respuestas vacías o cortadas muestran un error recuperable.",
+    "Respuestas de Eve: contexto acotado por turnos completos, instrucciones locales más compactas, esquemas de herramientas relevantes y filtro del pensamiento interno. No se ejecutan herramientas incompletas o con argumentos dañados.",
+    "Cuentas de Eve en Eve Chat: selector para ChatGPT, Claude y Gemini conectados desde Ajustes; contexto y permisos del chat en los adaptadores, sin depender de la configuración antigua de API remota. Direcciones OpenAI normalizadas y mejores mensajes de autorización, límites y disponibilidad.",
+    "Eve Chat: corregida la cabecera que podía impedir abrir la ventana. Borrar o cerrar una conversación cancela sus operaciones y permisos pendientes; los eventos tardíos no recrean chats ni mezclan sus respuestas.",
+    "Incluye las reparaciones anteriores de marcos GTK, compositor, widgets, actualizaciones, splash, drivers y fecha y hora. Verificación de integración en X11 aislado y proveedores simulados; no equivale a una prueba de GPU, GGUF o cuenta real del equipo del usuario."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.2.7/corelab-core_1.2.7_all.deb",
-  "sha256": "19f9a07a21e8dba1622d53d6456d32a8b6818f5966e32c2e01f268a52d36c36d",
-  "tamaño": 10421924
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.2.8/corelab-core_1.2.8_all.deb",
+  "sha256": "87f589c67141ad038f77103fc52e4d773e7c2b9e73dd100896c13523897582ac",
+  "tamaño": 10402656
 }
