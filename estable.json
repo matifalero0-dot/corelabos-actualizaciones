@@ -1,16 +1,21 @@
 {
-  "version": "1.3.1",
-  "titulo": "CoreOS 1.3.1 · Edición Corelux",
+  "version": "1.3.2",
+  "titulo": "CoreOS 1.3.2 · Edición Corelux",
   "fecha": "2026-10-16",
   "notas": [
-    "CoreOS 1.3.1 · Edición Corelux. Actualización para equipos con 1.3.",
-    "Animaciones más fluidas en todo el sistema: curvas de movimiento como las de macOS, sin rebotes ni saltos, y transiciones suaves en botones, listas, interruptores y menús de todas las apps.",
-    "Ajustes y el menú de aplicaciones se abren y cambian de sección con transiciones más largas y suaves.",
-    "Actualizaciones al estilo iOS: imagen propia de cada versión de CoreOS con el logo y el número grande, estado claro («CoreOS está actualizado»), tarjeta de la actualización disponible y «Más información» con las novedades.",
-    "Eve: conectá tu cuenta de OpenRouter con su inicio de sesión (sin pegar claves) y usá Claude, GPT, Gemini, Llama y más con una sola cuenta. Nuevo: Groq, para respuestas muy rápidas.",
-    "Eve más inteligente: si una IA falla por saldo, credencial o conexión, la saltea unos minutos y responde con la siguiente, sin hacerte esperar."
+    "CoreOS 1.3.2 · Edición Corelux. Actualización para equipos con 1.3.",
+    "El equipo ya no se suspende por inactividad ni al cerrar la tapa: se bloquea (después de 5 minutos, configurable) y pasa a la pantalla siempre activa. No se bloquea mientras ves un video, jugás o suena audio.",
+    "Pantalla siempre activa (AOD) como en iOS: fondo atenuado, fecha, hora grande y tus notificaciones en tarjetas. Al llegar un mensaje la pantalla se ilumina 5 segundos y vuelve a atenuarse. Nuevas opciones en Ajustes → Pantalla de bloqueo.",
+    "Pantalla de bloqueo con el estilo de macOS: reloj grande, foto y contraseña compactas abajo, sin botón de suspender.",
+    "Ventanas con los botones a la izquierda como en macOS, en los colores de CoreOS (rosa, ámbar y menta).",
+    "Menú de aplicaciones como el de Windows 11: búsqueda, «Anclado» con tres filas, «Recomendado» con archivos y apps recientes y «Todas las apps».",
+    "Ajustes → Pantalla: organizá tus monitores arrastrándolos, identificalos, elegí la principal, la resolución, la frecuencia (Hz) y la orientación, con confirmación de 15 segundos como en Windows.",
+    "Cursor propio «Núcleo»: la silueta de macOS, la geometría de Windows y el núcleo de color de CoreOS, con indicador de espera animado.",
+    "Eve: aparece con una animación más fluida, su cristal se ve igual sobre cualquier fondo y ya no se activa sola al escuchar conversaciones.",
+    "La barra superior se lee bien en modo claro; la pantalla de apagado queda por encima del dock.",
+    "Isla, Mensajes, dock, centro de control, widgets y apps con mejoras de animación y diseño."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.3.1/corelab-core_1.3.1_all.deb",
-  "sha256": "36c967e6eeb871168a3dd746e6ee8b3f11ada884082c929b2b38ab00e0d511dc",
-  "tamaño": 10898196
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.3.2/corelab-core_1.3.2_all.deb",
+  "sha256": "be693e338b04548c334d58e76bd08e009c2e28104cd2dc3b8d87e8111b9fd311",
+  "tamaño": 11017880
 }
