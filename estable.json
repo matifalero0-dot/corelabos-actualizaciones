@@ -1,21 +1,17 @@
 {
-  "version": "1.3.2",
-  "titulo": "CoreOS 1.3.2 · Edición Corelux",
+  "version": "1.3.3",
+  "titulo": "CoreOS 1.3.3 · Edición Corelux",
   "fecha": "2026-10-16",
   "notas": [
-    "CoreOS 1.3.2 · Edición Corelux. Actualización para equipos con 1.3.",
-    "El equipo ya no se suspende por inactividad ni al cerrar la tapa: se bloquea (después de 5 minutos, configurable) y pasa a la pantalla siempre activa. No se bloquea mientras ves un video, jugás o suena audio.",
-    "Pantalla siempre activa (AOD) como en iOS: fondo atenuado, fecha, hora grande y tus notificaciones en tarjetas. Al llegar un mensaje la pantalla se ilumina 5 segundos y vuelve a atenuarse. Nuevas opciones en Ajustes → Pantalla de bloqueo.",
-    "Pantalla de bloqueo con el estilo de macOS: reloj grande, foto y contraseña compactas abajo, sin botón de suspender.",
-    "Ventanas con los botones a la izquierda como en macOS, en los colores de CoreOS (rosa, ámbar y menta).",
-    "Menú de aplicaciones como el de Windows 11: búsqueda, «Anclado» con tres filas, «Recomendado» con archivos y apps recientes y «Todas las apps».",
-    "Ajustes → Pantalla: organizá tus monitores arrastrándolos, identificalos, elegí la principal, la resolución, la frecuencia (Hz) y la orientación, con confirmación de 15 segundos como en Windows.",
-    "Cursor propio «Núcleo»: la silueta de macOS, la geometría de Windows y el núcleo de color de CoreOS, con indicador de espera animado.",
-    "Eve: aparece con una animación más fluida, su cristal se ve igual sobre cualquier fondo y ya no se activa sola al escuchar conversaciones.",
-    "La barra superior se lee bien en modo claro; la pantalla de apagado queda por encima del dock.",
-    "Isla, Mensajes, dock, centro de control, widgets y apps con mejoras de animación y diseño."
+    "CoreOS 1.3.3 · Edición Corelux. Actualización para equipos con 1.3.",
+    "WhatsApp se presenta como Linux: ya no ofrece «Descargá WhatsApp para Mac» y quedan habilitadas las llamadas y videollamadas.",
+    "WhatsApp y las demás apps web en ventana propia usan el marco nuevo de CoreOS (botones de color a la izquierda y título centrado) en lugar del marco viejo del navegador.",
+    "Los avisos de WhatsApp, Instagram y otras apps web ya no muestran «web.whatsapp.com» delante del mensaje; el botón «Abrir» de la isla se lee mejor.",
+    "Eve: desaparece el recuadro oscuro que quedaba debajo de su panel.",
+    "Clima y las apps nuevas: los botones de ventana vuelven a ser círculos (se veían como barras altas).",
+    "Alt+Tab muestra íconos y nombres de las ventanas en lugar de recuadros vacíos."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.3.2/corelab-core_1.3.2_all.deb",
-  "sha256": "be693e338b04548c334d58e76bd08e009c2e28104cd2dc3b8d87e8111b9fd311",
-  "tamaño": 11017880
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.3.3/corelab-core_1.3.3_all.deb",
+  "sha256": "846b15875aa97a79443ea9546d50e8eef5b03966f7f8365201460582d1b81271",
+  "tamaño": 10995540
 }
