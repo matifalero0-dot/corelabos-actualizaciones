@@ -1,21 +1,17 @@
 {
-  "version": "1.2.6",
-  "titulo": "CoreOS 1.2.6 · Edición Corelux",
+  "version": "1.2.7",
+  "titulo": "CoreOS 1.2.7 · Edición Corelux",
   "fecha": "2026-10-16",
   "notas": [
-    "Actualizaciones: reintentos de descarga con firma y SHA256 obligatorios, recuperación automática de paquetes pendientes y dependencias sin eliminar paquetes, con límites y registro.",
-    "Splash: corregido el hook que interrumpía initramfs al copiar recursos ya incluidos. El paquete trae las imágenes de arranque verificadas y puede regenerarlas localmente.",
-    "Widgets: eliminado el reapilado periódico que interfería al abrir aplicaciones; transparencia explícita y repintado completo durante sus transiciones.",
-    "Escritorio: recorte visible de la isla y el dock, transparencias y sombras corregidas. Animaciones propias sin duplicar efectos del compositor; regeneración de estilos guardados.",
-    "Centro de control: el mismo botón cierra el panel sin volver a abrirlo durante la transición; libera el puntero al cerrar.",
-    "Drivers: instalación del microcódigo AMD e Intel y aviso de reinicio. Los paquetes ya instalados dejan de figurar como faltantes.",
-    "Nueva sección Fecha y hora: sincronización automática, zona horaria con búsqueda, ajuste manual y compatibilidad del reloj con Windows.",
-    "Encuentro: interfaz renovada de Mensajes, cuentas favoritas, búsqueda, zoom, audio por cuenta, adjuntos y descargas con paneles nativos. Recuperación de sesión y retratos que se actualizan al cargar.",
-    "Identidad visual: iconos vectoriales propios y nombres originales para las aplicaciones, conservando comandos, archivos y asociaciones. El lanzador muestra las apps del sistema y las instaladas desde la tienda.",
-    "Pluma incorpora modo de concentración y contador de caracteres. Mejoras de cabeceras, ayuda contextual de Eve y preferencias de identidad y movimiento.",
-    "Inicio de sesión: se elimina la espera de diez segundos por servicios secundarios antes de mostrar el escritorio."
+    "Ventanas: eliminados los márgenes exteriores excesivos del marco GTK y el fondo oscuro que ocupaba espacio alrededor de la cabecera y el contenido. Contornos compactos en GTK 3 y GTK 4.",
+    "Dock: corregida la superficie que quedaba visible al ocultarse, tanto con compositor como durante su recuperación. Se conserva la ampliación suave de iconos y el borde para volver a mostrarlo.",
+    "Composición: los modos Juego y Ahorro mantienen las transparencias y las animaciones propias. Inicio sincronizado y recuperación del compositor si deja de presentar la pantalla.",
+    "Isla dinámica: renderizado de su lienzo Cairo independiente del renderizador 3D de las demás apps; recorte de la superficie visible y transiciones propias sin una segunda animación del compositor.",
+    "Widgets: cuadro completo de contenido antes de presentarlo, sin reapilado al perder el foco. Se conservan los datos durante un error de dibujo y se evitan refrescos repetidos después de abrir su aplicación.",
+    "Compatibilidad gráfica: perfil XRender para Nouveau y respaldo si falla GLX. Se mantienen las texturas del escritorio al abrir o maximizar apps, sin retirar temporalmente la composición.",
+    "Incluye las reparaciones de V1.2.6 para splash, initramfs, descargas firmadas, recuperación de paquetes, drivers, fecha y hora, Mensajes y centro de control."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.2.6/corelab-core_1.2.6_all.deb",
-  "sha256": "745c7a873110f49c34bfc941cd9212afecaadd204446330f64fc66e0e877c367",
-  "tamaño": 10430628
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.2.7/corelab-core_1.2.7_all.deb",
+  "sha256": "19f9a07a21e8dba1622d53d6456d32a8b6818f5966e32c2e01f268a52d36c36d",
+  "tamaño": 10421924
 }
