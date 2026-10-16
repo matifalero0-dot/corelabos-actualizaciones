@@ -1,18 +1,21 @@
 {
-  "version": "1.2.5",
-  "titulo": "CoreOS 1.2.5 · Edición Corelux",
-  "fecha": "2026-10-15",
+  "version": "1.2.6",
+  "titulo": "CoreOS 1.2.6 · Edición Corelux",
+  "fecha": "2026-10-16",
   "notas": [
-    "Isla dinámica y dock: recuperación de inicio, transparencia y animaciones fluidas. Widgets con transición de apertura y actualización de datos sin solaparse.",
-    "Drivers: detección de paquetes faltantes y errores de repositorio, fecha de comprobación, avisos nativos y progreso en la isla. Instalación sin eliminar otros paquetes.",
-    "Actualizaciones CoreOS: mejoras en la creación de puntos de restauración, registro de errores y opción explícita para continuar sin copia cuando no se pueda crear.",
-    "Mensajes: ventanas con nombre de la app, retrato del contacto, permisos nativos y acceso integrado a WhatsApp, Instagram y TikTok.",
-    "Música: controles vinculados al reproductor correcto y avance confirmado; vista CoreOS para controlar Spotify y abrir su biblioteca oficial.",
-    "Ajustes reorganizados, detección de Brave y ayuda contextual de Eve. Mejoras en adaptadores de IA y conexión de cuenta ChatGPT mediante autorización oficial.",
-    "Artwork: duplicación de capas con deshacer y todos los fotogramas; herramientas compactas e integración contextual de Eve en las apps creativas.",
-    "Transición de arranque y sesión, compatibilidad GTK 3/4 y marcos CoreOS para aplicaciones externas compatibles."
+    "Actualizaciones: reintentos de descarga con firma y SHA256 obligatorios, recuperación automática de paquetes pendientes y dependencias sin eliminar paquetes, con límites y registro.",
+    "Splash: corregido el hook que interrumpía initramfs al copiar recursos ya incluidos. El paquete trae las imágenes de arranque verificadas y puede regenerarlas localmente.",
+    "Widgets: eliminado el reapilado periódico que interfería al abrir aplicaciones; transparencia explícita y repintado completo durante sus transiciones.",
+    "Escritorio: recorte visible de la isla y el dock, transparencias y sombras corregidas. Animaciones propias sin duplicar efectos del compositor; regeneración de estilos guardados.",
+    "Centro de control: el mismo botón cierra el panel sin volver a abrirlo durante la transición; libera el puntero al cerrar.",
+    "Drivers: instalación del microcódigo AMD e Intel y aviso de reinicio. Los paquetes ya instalados dejan de figurar como faltantes.",
+    "Nueva sección Fecha y hora: sincronización automática, zona horaria con búsqueda, ajuste manual y compatibilidad del reloj con Windows.",
+    "Encuentro: interfaz renovada de Mensajes, cuentas favoritas, búsqueda, zoom, audio por cuenta, adjuntos y descargas con paneles nativos. Recuperación de sesión y retratos que se actualizan al cargar.",
+    "Identidad visual: iconos vectoriales propios y nombres originales para las aplicaciones, conservando comandos, archivos y asociaciones. El lanzador muestra las apps del sistema y las instaladas desde la tienda.",
+    "Pluma incorpora modo de concentración y contador de caracteres. Mejoras de cabeceras, ayuda contextual de Eve y preferencias de identidad y movimiento.",
+    "Inicio de sesión: se elimina la espera de diez segundos por servicios secundarios antes de mostrar el escritorio."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.2.5/corelab-core_1.2.5_all.deb",
-  "sha256": "73affbb933979ab9899cddebb8d2599302e6cd432bd11de38f3d04f440bbc4e9",
-  "tamaño": 10377036
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.2.6/corelab-core_1.2.6_all.deb",
+  "sha256": "745c7a873110f49c34bfc941cd9212afecaadd204446330f64fc66e0e877c367",
+  "tamaño": 10430628
 }
