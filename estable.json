@@ -1,26 +1,16 @@
 {
-  "version": "1.3",
-  "titulo": "CoreOS 1.3 · Edición Corelux",
+  "version": "1.3.1",
+  "titulo": "CoreOS 1.3.1 · Edición Corelux",
   "fecha": "2026-10-16",
   "notas": [
-    "CoreOS 1.3 · Edición Corelux. Actualización mayor para equipos con V1.2.9.",
-    "Nuevo diseño Corelux: superficies, botones, campos, listas y pestañas propias en todas las apps; íconos rediseñados con una sola silueta, profundidad y la chispa de CoreOS.",
-    "Nuevo logo de CoreOS en el arranque, la barra y el sistema. Ícono de Actualizaciones con insignia, como en iOS.",
-    "Nombres de apps simples y claros: Archivos, Fotos, Cámara, Música, Notas, Calendario, Cine, Estudio, Teléfono, Calculadora, Tienda… La búsqueda sigue encontrando los nombres anteriores.",
-    "Isla dinámica con la lógica de iOS: tocar una actividad abre su app, mantener presionado la expande y se recoge sola. Negro puro, resortes con un rebote corto, hasta 60 cuadros por segundo y sin tirones.",
-    "Avisos más inteligentes: agrupa mensajes de la misma conversación, evita duplicados, dura lo necesario para leer y espera mientras jugás en pantalla completa (después muestra un resumen).",
-    "Llamadas: WhatsApp, Instagram, Messenger, Telegram y Discord suenan con un tono propio y aparecen en la isla con Responder y Rechazar. Nueva app Teléfono con el historial y llamar desde cada servicio.",
-    "Mensajes: notificaciones de Instagram y TikTok, cuentas activas en segundo plano y permisos con «Permitir siempre», «Solo esta vez» o «No permitir nunca».",
-    "Eve rediseñada: cristal translúcido, filo de luz aurora, sugerencias en tarjetas y respuestas que se escriben con suavidad. Responde más rápido: el modelo local se precarga al abrirla.",
-    "Transiciones estilo macOS: del acceso al escritorio y del bloqueo al escritorio sin pantallas negras; las apps se abren con zoom desde el widget o el ícono.",
-    "Modo Windows: Windows + L bloquea solo tu usuario (la PC sigue encendida), Windows + 1…9 abre las apps del dock, Ctrl + Alt + Supr, Ctrl + Mayús + Esc y los atajos de siempre.",
-    "Arranque más limpio y rápido: sin textos de Linux entre el logo del equipo y el de CoreOS.",
-    "Sonido sin cortes y con remuestreo de alta calidad; el sonido de inicio ya no se corta.",
-    "PC y laptop: perfil propio de energía, efectos según batería, detección de gráficos híbridos, audio y adaptadores USB, y video por hardware.",
-    "Menú de aplicaciones solo con apps: suma YouTube, Gmail, Drive, Outlook, Discord, Netflix, Telegram, Messenger y Calculadora.",
-    "Barra superior sin «(genmon)XXX»."
+    "CoreOS 1.3.1 · Edición Corelux. Actualización para equipos con 1.3.",
+    "Animaciones más fluidas en todo el sistema: curvas de movimiento como las de macOS, sin rebotes ni saltos, y transiciones suaves en botones, listas, interruptores y menús de todas las apps.",
+    "Ajustes y el menú de aplicaciones se abren y cambian de sección con transiciones más largas y suaves.",
+    "Actualizaciones al estilo iOS: imagen propia de cada versión de CoreOS con el logo y el número grande, estado claro («CoreOS está actualizado»), tarjeta de la actualización disponible y «Más información» con las novedades.",
+    "Eve: conectá tu cuenta de OpenRouter con su inicio de sesión (sin pegar claves) y usá Claude, GPT, Gemini, Llama y más con una sola cuenta. Nuevo: Groq, para respuestas muy rápidas.",
+    "Eve más inteligente: si una IA falla por saldo, credencial o conexión, la saltea unos minutos y responde con la siguiente, sin hacerte esperar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.3/corelab-core_1.3_all.deb",
-  "sha256": "e140c4dd884caa2d5dfef05e5b5b0900da76eea495de55d20c141c488d7ebee0",
-  "tamaño": 10893440
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.3.1/corelab-core_1.3.1_all.deb",
+  "sha256": "36c967e6eeb871168a3dd746e6ee8b3f11ada884082c929b2b38ab00e0d511dc",
+  "tamaño": 10898196
 }
