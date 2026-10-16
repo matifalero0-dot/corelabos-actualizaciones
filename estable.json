@@ -1,19 +1,20 @@
 {
-  "version": "1.2.8",
-  "titulo": "CoreOS 1.2.8 · Edición Corelux",
+  "version": "1.2.9",
+  "titulo": "CoreOS 1.2.9 · Edición Corelux",
   "fecha": "2026-10-16",
   "notas": [
-    "Isla dinámica: corregido el lienzo GTK 4 que conservaba el dibujo de reposo aunque llegaran actividades. Se actualizan música, Eve, notificaciones, llamadas y progreso; se mantienen las transiciones propias.",
-    "Música en la isla: detección asíncrona de reproductores MPRIS, reintentos cuando el navegador inicia su interfaz tarde y actualización de metadatos invalidados. La actividad sigue visible con el navegador en primer plano y puede aparecer antes de recibir el título.",
-    "Ondas: la música sigue el audio real disponible; cuando no hay señal de captura permanece neutral. Una nueva actividad reactiva una isla recogida previamente.",
-    "Dock: recuperación del hover si se pierde el evento de salida del puntero. Revisión del ocultamiento inteligente, geometría correcta sin compositor y conservación de las animaciones para aparecer y desaparecer.",
-    "Eve local: unificado el transporte con Eve Chat, sin solicitar un alias de modelo inexistente. Corregidos streaming lento, cancelación durante la carga y detección del cierre prematuro del motor. Las respuestas vacías o cortadas muestran un error recuperable.",
-    "Respuestas de Eve: contexto acotado por turnos completos, instrucciones locales más compactas, esquemas de herramientas relevantes y filtro del pensamiento interno. No se ejecutan herramientas incompletas o con argumentos dañados.",
-    "Cuentas de Eve en Eve Chat: selector para ChatGPT, Claude y Gemini conectados desde Ajustes; contexto y permisos del chat en los adaptadores, sin depender de la configuración antigua de API remota. Direcciones OpenAI normalizadas y mejores mensajes de autorización, límites y disponibilidad.",
-    "Eve Chat: corregida la cabecera que podía impedir abrir la ventana. Borrar o cerrar una conversación cancela sus operaciones y permisos pendientes; los eventos tardíos no recrean chats ni mezclan sus respuestas.",
-    "Incluye las reparaciones anteriores de marcos GTK, compositor, widgets, actualizaciones, splash, drivers y fecha y hora. Verificación de integración en X11 aislado y proveedores simulados; no equivale a una prueba de GPU, GGUF o cuenta real del equipo del usuario."
+    "V1.2.9 · Interfaz y aplicaciones de CoreOS. Actualización nueva para equipos con V1.2.8.",
+    "Barra superior: nueva familia de iconos simbólicos con contornos compatibles con GTK 3.24, tamaño y espaciado uniformes, contraste según el tema y superficie continua sin cápsulas negras en los plugins.",
+    "Reparado el indicador de red que podía quedar sin configurar. Los accesos del panel usan iconos propios y la ventana activa muestra el nombre real de la app, con lectura directa de EWMH.",
+    "Identidad de CoreOS: Aria (música), Croma (video), Trazo (dibujo), Luma (fotos), Atlas (archivos), Pluma (notas), Verso (documentos), Métrica (hojas de cálculo), Relato (presentaciones), Folia (PDF), Oficio (suite de oficina), Vitrina (tienda), Cadencia (composición), Órbita (juegos), Impulso (automatizaciones), Nítida (escáner), Alba (bienvenida), Ritmo (concentración) y Pulso (monitor), entre otras. Clima y Mensajes conservan sus nombres descriptivos. Comandos, formatos y sesiones conservados.",
+    "Los nombres se aplican en el buscador, menú, dock, cabeceras GTK 3/4 y títulos que cambian al abrir documentos. La búsqueda sigue reconociendo los nombres y funciones anteriores.",
+    "Mensajes: cabecera más despejada, opciones de conversación en un panel, estado de carga por cuenta, tarjetas de servicios que caben en pantalla y menos duplicación de texto.",
+    "Ventanas: cuerpo unido a la cabecera, sin un segundo redondeado en la parte superior del contenido. Esquinas exteriores coherentes en GTK 3/4 y al maximizar.",
+    "Vistas integradas: corregidas interrupciones del historial y de las rutas de acceso; ventanas de autenticación nativas con el contexto de sesión de la cuenta. Se conservan las vistas de conversaciones de Instagram y TikTok.",
+    "Recuperación de vistas sin borrar cookies: reinicio del proceso de contenido y modo compatible opcional por cuenta. Avisos al perder respuesta o tardar en conectar; limpieza de solicitudes y descargas al cerrar.",
+    "Incluye las reparaciones de V1.2.8 para isla, dock, widgets, Eve y actualizaciones. Comprobaciones en sesiones X11 aisladas, interacción real con WebKit y carga de pantallas públicas de acceso; las sesiones autenticadas y el hardware del usuario requieren uso real."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.2.8/corelab-core_1.2.8_all.deb",
-  "sha256": "87f589c67141ad038f77103fc52e4d773e7c2b9e73dd100896c13523897582ac",
-  "tamaño": 10402656
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.2.9/corelab-core_1.2.9_all.deb",
+  "sha256": "1941ded609a0738bdc910fe1966d01383497fa17312f5fc68d59250464693257",
+  "tamaño": 10425704
 }
