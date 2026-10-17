@@ -1,23 +1,15 @@
 {
-  "version": "1.5",
-  "titulo": "corelabOS 1.5",
+  "version": "1.6",
+  "titulo": "corelabOS 1.6",
   "fecha": "2026-10-17",
   "notas": [
-    "CoreOS 1.5 · Edición Corelux. Actualización para equipos con 1.3.",
-    "Encendido continuo como en macOS: el logo blanco sobre negro de punta a punta. La pantalla de carga violeta vieja ya no aparece (el equipo regenera su arranque una vez) y no se ve más la consola de Debian entre el logo y el escritorio.",
-    "Un solo menú de encendido para todo el sistema (Bloquear, Cerrar sesión, Reiniciar y Apagar), sin «Suspender».",
-    "El logo de la barra abre el menú de CoreOS, como el menú Apple de macOS, y los menús de la barra tienen el estilo nuevo.",
-    "Llamadas como en iOS: la ventana muestra el nombre de la persona (nunca «WhatsApp»), tiene marco, y en la isla las ondas son barras verdes que siguen la voz, con la duración de la llamada.",
-    "Las ondas de la música ya no se quedan quietas como puntitos mientras suena la canción.",
-    "Cuando una app web suena (Instagram, WhatsApp, YouTube…), la isla muestra el ícono de esa app y no el de Chrome.",
-    "La isla se abre y se cierra sin quedar como un recuadro negro vacío.",
-    "Eve se abre más rápido y sin panel vacío.",
-    "Bloquear es suave: entra directo al modo siempre activo, sin el destello del fondo.",
-    "Las notificaciones vuelven a verse en la pantalla de bloqueo y en el modo siempre activo.",
-    "El calendario del panel de notificaciones ya no tiene un cuadro negro detrás.",
-    "WhatsApp, Instagram y TikTok son apps independientes; la app Mensajes se quitó."
+    "CoreOS 1.6 · Edición Corelux. Actualización para equipos con 1.3.",
+    "Sonido de encendido nuevo: un acorde amplio y cálido que se apaga lento, en el espíritu del de las Mac.",
+    "Tonos de mensajes estilo iOS con campanas cálidas y brillantes: «Tri-tono» para los mensajes, «Nota» para los avisos rápidos, y WhatsApp e Instagram con su propio tono.",
+    "Ajustes con el diseño de Ajustes del Sistema de macOS: barra lateral pegada al borde con filas compactas, secciones en tipo normal, encabezado sobrio con ícono grande y grupos con esquinas suaves y filos finos entre filas.",
+    "Revisión completa: las 55 apps del sistema abren sin errores."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.5/corelab-core_1.5_all.deb",
-  "sha256": "edaeb591401b4ffb0d78640903a18616a76b0cf47d3de4eea38337a933bf6094",
-  "tamaño": 13071524
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.6/corelab-core_1.6_all.deb",
+  "sha256": "8b52e367418dd73d03a62aebfa10ca2d7a3eba4fc21a778fb372e64390000fef",
+  "tamaño": 13155808
 }
