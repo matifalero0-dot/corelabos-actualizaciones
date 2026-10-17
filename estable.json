@@ -1,17 +1,12 @@
 {
-  "version": "1.7",
-  "titulo": "corelabOS 1.7",
+  "version": "1.7.1",
+  "titulo": "corelabOS 1.7.1",
   "fecha": "2026-10-17",
   "notas": [
-    "CoreOS 1.7 · Edición Corelux. Actualización para equipos con 1.3.",
-    "StandBy, como en el iPhone: un reloj enorme y tus widgets (calendario, clima y lo que suena) a pantalla completa sobre negro. De noche se tiñe de rojo tenue. Está en Aplicaciones.",
-    "Pantalla de bloqueo con widgets como iOS 16: el clima y lo próximo de tu agenda en cápsulas de cristal debajo de la hora, con los avisos más abajo.",
-    "El AOD se despierta tocando la pantalla (un clic) o con una tecla, no al mover el mouse, y pasa suave a la pantalla de bloqueo; la contraseña se pide recién en el próximo toque.",
-    "El color de acento sigue a tu fondo de pantalla (se puede apagar en Ajustes → Apariencia; elegir un color a mano también lo apaga).",
-    "El fondo vivo apagado o en pausa ya no despierta el procesador cada segundo.",
-    "Probado de punta a punta: las notificaciones llegan a la pantalla de bloqueo y al AOD, agrupadas por app y con su ícono."
+    "CoreOS 1.7.1 · Edición Corelux. Actualización para equipos con 1.3.",
+    "Fondos en movimiento personalizados: elegí tu propio video (MP4, WebM, MOV…) o un GIF y CoreOS lo pone de fondo, en bucle y sin sonido, llenando la pantalla. Lo decodifica la placa de video y se pausa solo con juegos, con batería o con el equipo bloqueado. Está en Fondos vivos → «Tu propio fondo en movimiento»."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.7/corelab-core_1.7_all.deb",
-  "sha256": "73c685943ec804256bb5a329244569be136694d9d88566035d0a74a2d5718937",
-  "tamaño": 13170088
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.7.1/corelab-core_1.7.1_all.deb",
+  "sha256": "094197145723555c9a244f59dead403bec29c53f583349ae2d12bcd64da5425a",
+  "tamaño": 13156968
 }
