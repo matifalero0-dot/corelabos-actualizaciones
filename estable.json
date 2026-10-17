@@ -1,15 +1,23 @@
 {
-  "version": "1.4.7",
-  "titulo": "corelabOS 1.4.7",
+  "version": "1.5",
+  "titulo": "corelabOS 1.5",
   "fecha": "2026-10-17",
   "notas": [
-    "CoreOS 1.4.7 · Edición Corelux. Actualización para equipos con 1.3.",
-    "La barra superior vuelve y ya no aparece «No se puede cargar el complemento \"(null)\"»: al leer la lista de la barra se tomaba un número del encabezado como si fuera un elemento, y al guardarla quedaba uno inexistente. Al iniciar sesión se repara sola y, si la barra no está abierta, se abre.",
-    "La barra se reinicia una sola vez al iniciar sesión (antes había varios reinicios a la vez que podían dañar su configuración), y cambiar los elementos de la barra en Ajustes ya no borra los menús Archivo, Editar, Ver, Ventana y Ayuda.",
-    "WhatsApp e Instagram ya no aparecen al iniciar el sistema: corren en segundo plano, fuera de la vista, aunque Chrome recordara la ventana en el medio de la pantalla. Se abren solo cuando los tocás en el dock o en la isla.",
-    "El nombre de la ventana queda centrado justo debajo de la isla, como en macOS."
+    "CoreOS 1.5 · Edición Corelux. Actualización para equipos con 1.3.",
+    "Encendido continuo como en macOS: el logo blanco sobre negro de punta a punta. La pantalla de carga violeta vieja ya no aparece (el equipo regenera su arranque una vez) y no se ve más la consola de Debian entre el logo y el escritorio.",
+    "Un solo menú de encendido para todo el sistema (Bloquear, Cerrar sesión, Reiniciar y Apagar), sin «Suspender».",
+    "El logo de la barra abre el menú de CoreOS, como el menú Apple de macOS, y los menús de la barra tienen el estilo nuevo.",
+    "Llamadas como en iOS: la ventana muestra el nombre de la persona (nunca «WhatsApp»), tiene marco, y en la isla las ondas son barras verdes que siguen la voz, con la duración de la llamada.",
+    "Las ondas de la música ya no se quedan quietas como puntitos mientras suena la canción.",
+    "Cuando una app web suena (Instagram, WhatsApp, YouTube…), la isla muestra el ícono de esa app y no el de Chrome.",
+    "La isla se abre y se cierra sin quedar como un recuadro negro vacío.",
+    "Eve se abre más rápido y sin panel vacío.",
+    "Bloquear es suave: entra directo al modo siempre activo, sin el destello del fondo.",
+    "Las notificaciones vuelven a verse en la pantalla de bloqueo y en el modo siempre activo.",
+    "El calendario del panel de notificaciones ya no tiene un cuadro negro detrás.",
+    "WhatsApp, Instagram y TikTok son apps independientes; la app Mensajes se quitó."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.4.7/corelab-core_1.4.7_all.deb",
-  "sha256": "dde582794f05cc885ae299d68a1c5e7174f249d317bf5ea4f1763f347a34c11c",
-  "tamaño": 13081728
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.5/corelab-core_1.5_all.deb",
+  "sha256": "edaeb591401b4ffb0d78640903a18616a76b0cf47d3de4eea38337a933bf6094",
+  "tamaño": 13071524
 }
