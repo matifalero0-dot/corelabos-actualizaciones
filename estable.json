@@ -1,20 +1,18 @@
 {
-  "version": "1.4.1",
-  "titulo": "CoreOS 1.4.1 · Edición Corelux",
+  "version": "1.4.2",
+  "titulo": "CoreOS 1.4.2 · Edición Corelux",
   "fecha": "2026-10-17",
   "notas": [
-    "CoreOS 1.4.1 · Edición Corelux. Actualización para equipos con 1.3.",
-    "Encendido como en un iPhone o una Mac: fondo negro, tu logo de CoreOS en blanco y sin barra (la barra solo aparece cuando se instalan actualizaciones). El inicio de sesión toma ese mismo cuadro y se funde suave a tu fondo.",
-    "Encendido más rápido, con la lógica de macOS: primero aparece lo que se ve (barra, dock, isla, notificaciones) y lo demás arranca escalonado; el sistema ya no espera a la red ni corre mantenimiento atrasado al prender.",
-    "Apps más rápidas al abrir: los programas grandes quedan precompilados (Ajustes pasó de 72 ms a 2 ms en carga).",
-    "Pantalla de bloqueo como iOS: los mensajes llegan al instante y se apilan por app con su ícono; un toque despliega la pila, deslizar la descarta. Candado arriba de la fecha que se cierra al bloquear y se abre al desbloquear, y batería con su ícono y porcentaje.",
-    "Bloquear con Super+L: la pantalla se oscurece suave y entra directo a la pantalla siempre activa (AOD). Al mover el mouse o tocar una tecla aparece la pantalla para desbloquear; al desbloquear, la capa sube y deja ver el escritorio que ya estaba cargado.",
-    "Centro de notificaciones con pilas por app, toque para desplegar y deslizar para borrar.",
-    "Clima rediseñado como el de iOS: fondo según el tiempo y la hora, temperatura grande, pronóstico por hora, próximos días con barras y mosaicos de sensación, humedad, viento y lluvia.",
-    "Vista rápida en Archivos: Espacio sobre un archivo lo muestra sin abrirlo (imágenes, videos, texto y código); ← y → recorren la selección.",
-    "Widgets sin parpadeo al actualizarse."
+    "CoreOS 1.4.2 · Edición Corelux. Actualización para equipos con 1.3.",
+    "Llamadas de WhatsApp e Instagram desde la isla: el motor de Mensajes usa Chrome por dentro, en segundo plano, y la isla muestra la llamada entrante para atender, rechazar, silenciar o colgar sin que salten ventanas. Si cerrás la ventana, el servicio sigue en segundo plano como en un teléfono.",
+    "Pantalla de llamada como la del iPhone: tocá la isla durante una llamada para abrirla (silenciar, altavoz, video, abrir chat y colgar). Cerrarla o minimizarla no corta: la llamada sigue en la isla.",
+    "Llamadas con el equipo bloqueado, como en iOS: la pantalla se enciende con el nombre y Rechazar / Aceptar; para atender, ponés tu contraseña y se atiende sola al desbloquear.",
+    "Animaciones como macOS: las ventanas se abren con un leve zoom, se cierran achicándose y al minimizar viajan hacia el dock.",
+    "Aceleración por hardware como en Windows: los juegos y videos a pantalla completa van directo a la placa de video, las apps web dibujan y decodifican video con la GPU, y las tareas de fondo ceden el procesador a lo que estás usando.",
+    "Centro de control como el de macOS: Wi-Fi, Bluetooth y Core Drop juntos en un módulo.",
+    "El dock vuelve a verse siempre, como en macOS (antes se escondía cuando una ventana lo tocaba); las ventanas maximizadas le dejan su lugar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.4.1/corelab-core_1.4.1_all.deb",
-  "sha256": "e404afbc4f3bf1bb5e671ca4d2d3f0cc5c94138e275bed2020630bc80a7e93be",
-  "tamaño": 11019580
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.4.2/corelab-core_1.4.2_all.deb",
+  "sha256": "107c7bc2a46039acb6826b55cfa7a4de37b20449849371eb4400c29cdf8b71ca",
+  "tamaño": 11034988
 }
