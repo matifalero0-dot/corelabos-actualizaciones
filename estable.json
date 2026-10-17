@@ -1,15 +1,15 @@
 {
-  "version": "1.4.6",
-  "titulo": "corelabOS 1.4.6",
+  "version": "1.4.7",
+  "titulo": "corelabOS 1.4.7",
   "fecha": "2026-10-17",
   "notas": [
-    "CoreOS 1.4.6 · Edición Corelux. Actualización para equipos con 1.3.",
-    "Mover y agrandar ventanas es instantáneo, como en macOS: la ventana ya no queda atrás del mouse al arrastrarla ni se estira al cambiar de tamaño (también con los estilos de Efectos).",
-    "Eve gasta menos: en reposo redibuja a 24 cuadros por segundo y vuelve a 60 apenas te escucha, piensa, habla o se anima.",
-    "Menús emergentes estilo macOS en todo el sistema (clic derecho en el dock, menús de la barra y de las apps): panel redondeado, opción resaltada en el color de acento y separadores finos.",
-    "Globos de ayuda oscuros y redondeados, iguales en todas las apps."
+    "CoreOS 1.4.7 · Edición Corelux. Actualización para equipos con 1.3.",
+    "La barra superior vuelve y ya no aparece «No se puede cargar el complemento \"(null)\"»: al leer la lista de la barra se tomaba un número del encabezado como si fuera un elemento, y al guardarla quedaba uno inexistente. Al iniciar sesión se repara sola y, si la barra no está abierta, se abre.",
+    "La barra se reinicia una sola vez al iniciar sesión (antes había varios reinicios a la vez que podían dañar su configuración), y cambiar los elementos de la barra en Ajustes ya no borra los menús Archivo, Editar, Ver, Ventana y Ayuda.",
+    "WhatsApp e Instagram ya no aparecen al iniciar el sistema: corren en segundo plano, fuera de la vista, aunque Chrome recordara la ventana en el medio de la pantalla. Se abren solo cuando los tocás en el dock o en la isla.",
+    "El nombre de la ventana queda centrado justo debajo de la isla, como en macOS."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.4.6/corelab-core_1.4.6_all.deb",
-  "sha256": "e1bac5ca33085e2b0b2d730522a7c0c1a99b6761b8300911e2f17fdb9ea1b9d2",
-  "tamaño": 13071060
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.4.7/corelab-core_1.4.7_all.deb",
+  "sha256": "dde582794f05cc885ae299d68a1c5e7174f249d317bf5ea4f1763f347a34c11c",
+  "tamaño": 13081728
 }
