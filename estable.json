@@ -1,13 +1,30 @@
 {
-  "version": "1.4.3",
-  "titulo": "CoreOS 1.4.3 · Edición Corelux",
+  "version": "1.4.4",
+  "titulo": "corelabOS 1.4.4",
   "fecha": "2026-10-17",
   "notas": [
-    "CoreOS 1.4.3 · Edición Corelux. Actualización para equipos con 1.3.",
-    "La isla vuelve a verse: el compositor ya no se apaga cuando una ventana ocupa toda la pantalla (eso quitaba la transparencia sobre la que se dibuja la isla, el desenfoque y las esquinas redondeadas).",
-    "La isla, el dock y la barra quedan fuera de las animaciones de ventanas: se animan solos y no se mueven ni se esconden por error."
+    "CoreOS 1.4.4 · Edición Corelux. Actualización para equipos con 1.3.",
+    "Menú de aplicaciones al instante: queda cargado desde el inicio de sesión y abre sin pantalla vacía; la entrada y la salida las anima la placa de video.",
+    "Centro de control fluido: ya no se traba al abrir ni al cerrar, y el globo de ayuda de la barra ya no vuela por encima del reloj.",
+    "Todas las apps abren más rápido: el estilo visual ya no se recalcula cada vez que se abre una ventana.",
+    "Eve sin trabas: el destello de los bordes dibuja seis veces menos y Eve se anima a 60 cuadros por segundo.",
+    "Sonidos nuevos estilo iOS y macOS en todo el sistema, y Eve con sonidos estilo Intelligence (Prisma y Aurora siguen en Ajustes → Eve).",
+    "WhatsApp e Instagram con tono de aviso y de llamada propios; el tono de llamada se repite hasta atender o rechazar, y ya no suenan los sonidos de la página.",
+    "Pantalla de llamada estilo iOS: foto y nombre de la persona, fondo con su foto desenfocada y ondas que acompañan la charla (también en la isla).",
+    "Avisos de Chrome bien identificados: la isla muestra WhatsApp o Instagram, el nombre de la persona y el mensaje limpio, sin la dirección del sitio ni el botón «Configuración».",
+    "Como en iOS: la música no se repite en la isla mientras Spotify está al frente, y los mensajes de una app abierta no aparecen como aviso.",
+    "WhatsApp e Instagram ya no se abren solos ni duplican pestañas; abrirlos desde el dock o la isla trae la ventana que ya existe.",
+    "Dock: quitar o fijar apps funciona, y Ajustes ya no aparece como «Bienvenida».",
+    "La barra vuelve a mostrar Archivo, Editar, Ver, Ventana y Ayuda, y se repara sola si se pierden.",
+    "Nuevo cuadro de Encendido estilo macOS: Bloquear, Cerrar sesión, Reiniciar y Apagar (sin Suspender); el botón de encendido del menú tiene su ícono.",
+    "Bloqueo y desbloqueo fluidos: al volver no hay destello ni cuadro negro, y la capa de bloqueo sube sin cortes.",
+    "Minimizar estilo macOS: la ventana se achica pareja hacia el dock, sin deformarse.",
+    "Widgets nuevos en un lugar libre, sin encimarse; aviso de Ajustes como tarjeta de cristal.",
+    "Botones redondos de buscar y Eve en las cabeceras, Clima con botones de cristal y cuadro de contraseña rediseñado.",
+    "El buscador ya no se estira al mostrar resultados y el panel de notificaciones entra deslizándose.",
+    "Arranque por etapas como iOS: primero lo que se ve, después lo de fondo, y cada tarea espera a que el equipo se calme."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.4.3/corelab-core_1.4.3_all.deb",
-  "sha256": "4cce6d2e6f8cf1211094190cfaf30491ad1c53ca4e974333d4bab43486d3008c",
-  "tamaño": 11019080
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.4.4/corelab-core_1.4.4_all.deb",
+  "sha256": "f7f7381d8c6c85b779df2de7a6d162626b22bb4bbd226bea08cb25b3026f2a1f",
+  "tamaño": 13068448
 }
