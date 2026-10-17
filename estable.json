@@ -1,18 +1,15 @@
 {
-  "version": "1.4.5",
-  "titulo": "corelabOS 1.4.5",
+  "version": "1.4.6",
+  "titulo": "corelabOS 1.4.6",
   "fecha": "2026-10-17",
   "notas": [
-    "CoreOS 1.4.5 · Edición Corelux. Actualización para equipos con 1.3.",
-    "Animaciones más suaves: los avisos, Core Drop, los eventos, el portapapeles y los atajos ya no se mueven desde el procesador; la placa de video los desliza con las curvas de Apple.",
-    "Cuando un aviso se va, el de abajo sube a su lugar con suavidad.",
-    "Isla: al abrirse, el contenido aparece recién cuando la forma ya se abrió (antes se veía chico y borroso), y lo que se va se desvanece rápido.",
-    "Isla con dos actividades: desapareció la barra gris que quedaba entre la cápsula y la burbuja.",
-    "Nueva sección «Isla dinámica» en Ajustes, con el interruptor «Ocultar con la app al frente».",
-    "Ajustes: tu nombre y tu cuenta se leen bien en la tarjeta de perfil.",
-    "Menos trabajo por animación: la preferencia «Reducir movimiento» ya no se lee del disco en cada animación."
+    "CoreOS 1.4.6 · Edición Corelux. Actualización para equipos con 1.3.",
+    "Mover y agrandar ventanas es instantáneo, como en macOS: la ventana ya no queda atrás del mouse al arrastrarla ni se estira al cambiar de tamaño (también con los estilos de Efectos).",
+    "Eve gasta menos: en reposo redibuja a 24 cuadros por segundo y vuelve a 60 apenas te escucha, piensa, habla o se anima.",
+    "Menús emergentes estilo macOS en todo el sistema (clic derecho en el dock, menús de la barra y de las apps): panel redondeado, opción resaltada en el color de acento y separadores finos.",
+    "Globos de ayuda oscuros y redondeados, iguales en todas las apps."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.4.5/corelab-core_1.4.5_all.deb",
-  "sha256": "086a8dad55dc528d700bc6ddd1858b6b9413a4832d53bebf8dd4f6ad9a9c709b",
-  "tamaño": 13080080
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.4.6/corelab-core_1.4.6_all.deb",
+  "sha256": "e1bac5ca33085e2b0b2d730522a7c0c1a99b6761b8300911e2f17fdb9ea1b9d2",
+  "tamaño": 13071060
 }
