@@ -1,18 +1,13 @@
 {
-  "version": "1.4.2",
-  "titulo": "CoreOS 1.4.2 · Edición Corelux",
+  "version": "1.4.3",
+  "titulo": "CoreOS 1.4.3 · Edición Corelux",
   "fecha": "2026-10-17",
   "notas": [
-    "CoreOS 1.4.2 · Edición Corelux. Actualización para equipos con 1.3.",
-    "Llamadas de WhatsApp e Instagram desde la isla: el motor de Mensajes usa Chrome por dentro, en segundo plano, y la isla muestra la llamada entrante para atender, rechazar, silenciar o colgar sin que salten ventanas. Si cerrás la ventana, el servicio sigue en segundo plano como en un teléfono.",
-    "Pantalla de llamada como la del iPhone: tocá la isla durante una llamada para abrirla (silenciar, altavoz, video, abrir chat y colgar). Cerrarla o minimizarla no corta: la llamada sigue en la isla.",
-    "Llamadas con el equipo bloqueado, como en iOS: la pantalla se enciende con el nombre y Rechazar / Aceptar; para atender, ponés tu contraseña y se atiende sola al desbloquear.",
-    "Animaciones como macOS: las ventanas se abren con un leve zoom, se cierran achicándose y al minimizar viajan hacia el dock.",
-    "Aceleración por hardware como en Windows: los juegos y videos a pantalla completa van directo a la placa de video, las apps web dibujan y decodifican video con la GPU, y las tareas de fondo ceden el procesador a lo que estás usando.",
-    "Centro de control como el de macOS: Wi-Fi, Bluetooth y Core Drop juntos en un módulo.",
-    "El dock vuelve a verse siempre, como en macOS (antes se escondía cuando una ventana lo tocaba); las ventanas maximizadas le dejan su lugar."
+    "CoreOS 1.4.3 · Edición Corelux. Actualización para equipos con 1.3.",
+    "La isla vuelve a verse: el compositor ya no se apaga cuando una ventana ocupa toda la pantalla (eso quitaba la transparencia sobre la que se dibuja la isla, el desenfoque y las esquinas redondeadas).",
+    "La isla, el dock y la barra quedan fuera de las animaciones de ventanas: se animan solos y no se mueven ni se esconden por error."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.4.2/corelab-core_1.4.2_all.deb",
-  "sha256": "107c7bc2a46039acb6826b55cfa7a4de37b20449849371eb4400c29cdf8b71ca",
-  "tamaño": 11034988
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.4.3/corelab-core_1.4.3_all.deb",
+  "sha256": "4cce6d2e6f8cf1211094190cfaf30491ad1c53ca4e974333d4bab43486d3008c",
+  "tamaño": 11019080
 }
