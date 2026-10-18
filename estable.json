@@ -1,22 +1,22 @@
 {
-  "version": "1.9",
-  "titulo": "corelabOS 1.9",
+  "version": "1.9.2",
+  "titulo": "corelabOS 1.9.2",
   "fecha": "2026-10-18",
   "notas": [
-    "CoreOS 1.9 · Edición Corelux. Actualización para equipos con 1.3.",
-    "Minimizar con el efecto genio de macOS: la ventana se angosta y baja hasta el dock. Y se acabó lo de los selectores y diálogos que al cerrarse parecían irse minimizados a la barra: ahora se cierran en su lugar.",
-    "Inicio sin cortes: el fondo del acceso espera a que el escritorio esté entero (barra, dock, isla y compositor) y recién ahí se funde. Nada de pantalla violeta que corta de golpe.",
-    "Sonido de encendido nuevo, al estilo de Windows 11: un colchón tibio, un arpegio aireado que sube y un destello que queda flotando.",
-    "Avisos rediseñados al estilo iOS: gotas limpias y redondas que rebotan hacia arriba, y un tono propio y más lindo para WhatsApp, Instagram y cada app.",
-    "El portapapeles funciona: el historial (Super + V) anota de verdad lo que copiás (antes fallaba en cada copia) y, como en Windows y macOS, podés pegar aunque cierres la app de la que copiaste.",
-    "El logo de CoreOS en la barra se ve como la manzana de macOS: la silueta del logo, del mismo color que el texto de la barra.",
-    "Centro de control al instante: volumen, brillo y modos aparecen enseguida; Wi-Fi y Bluetooth se completan apenas responden (antes todo esperaba unos 2 segundos).",
-    "Modo oscuro más prolijo: los botones de la cabecera de Calendario, Notas, Claves, Clima y otras apps son círculos y píldoras (no cuadrados oscuros), los botones de Apps de Windows ya no son rectángulos blancos y el texto se sigue leyendo con la ventana sin foco.",
-    "Grabador de pantalla sin trabas y con mejor resultado: no pierde cuadros, la placa de video convierte los colores (NVIDIA, Intel, AMD), ritmo constante, mejor calidad con el procesador y el audio no se desfasa.",
-    "Detección de hardware completa: el modelo de tu placa de video, la frecuencia de la pantalla, el tipo de disco y el video por hardware aparecen en Ajustes → Acerca de. Las animaciones van a la frecuencia real del monitor (75, 120, 144 Hz) y WhatsApp e Instagram decodifican video con la placa donde funciona.",
-    "Ajustes más fluido: las secciones pesadas se preparan mientras la ventana está quieta."
+    "CoreOS 1.9.2 · Edición Corelux. Actualización para equipos con 1.3.",
+    "Tonos de llamada «Corelux»: una melodía propia de CoreOS en siete variantes — Predeterminado, Cristalino, Diáfano, Dinámico, Eléctrico, Onírico y Estanque. Elegilo en Ajustes → Sonido → Tono de llamada (al tocarlo suena).",
+    "Avisos melódicos: cada notificación es una frase corta con eco, y cada app tiene su propia melodía.",
+    "Mensajes de Instagram con nombre: cada mensaje nuevo llega por separado con la persona y el texto, en vez de «Tenés notificaciones no leídas».",
+    "La isla muestra cada mensaje por separado (sin «2 mensajes» ni «+1 más»), ya no tiene cruz, no parpadea y al compactarse vuelve a su lugar sin saltitos.",
+    "Clima con cielo dibujado: nubes en capas, sol, lluvia, nieve, niebla, estrellas y luna según el tiempo que hace.",
+    "Centro de notificaciones rediseñado: la hora grande arriba, tarjetas de cristal más amplias y el calendario compacto (se pliega solo si hay varias notificaciones).",
+    "Bloquear y desbloquear más suaves: la pantalla de bloqueo se enciende de a poco y al desbloquear el escritorio aparece entero con un fundido.",
+    "El logo de la barra es negro en modo claro y blanco en modo oscuro, y desde su menú Cerrar sesión, Reiniciar y Apagar se hacen directamente.",
+    "En el dock, Ajustes ya no aparece como «Bienvenida».",
+    "Se acabó la ventana de error en inglés «Failed to send D-Bus message» que aparecía si la barra se estaba reiniciando.",
+    "Los textos del sistema hablan solo de CoreOS."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.9/corelab-core_1.9_all.deb",
-  "sha256": "a4976afe4d4615370478635aee667b0b23dc20f7ac6a7c908d61b643b45c9352",
-  "tamaño": 13119452
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.9.2/corelab-core_1.9.2_all.deb",
+  "sha256": "d53e631e42e429ccbea3b4cc2cf431ac8ccb5333ce6f1e0f34f800808ef272b5",
+  "tamaño": 21564280
 }
