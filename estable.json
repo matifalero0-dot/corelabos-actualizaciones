@@ -1,17 +1,24 @@
 {
-  "version": "1.9.4",
-  "titulo": "corelabOS 1.9.4",
+  "version": "1.9.6",
+  "titulo": "corelabOS 1.9.6",
   "fecha": "2026-10-18",
   "notas": [
-    "CoreOS 1.9.4 · Edición Corelux. Actualización para equipos con 1.3.",
-    "La isla vuelve a estar dentro de la barra superior y ya no se corre de lugar: era el rectángulo negro que aparecía arriba a la izquierda.",
-    "El centro de notificaciones ya no muestra esquinas oscuras alrededor de las tarjetas cuando se abre recién iniciada la sesión.",
-    "Inicio más rápido: el escritorio aparece apenas están la barra y el fondo; el dock y la isla llegan solos un instante después, sin dejar la pantalla violeta esperando.",
-    "Los mensajes muestran la foto de la persona en la isla y en el centro de notificaciones, también los de Instagram en segundo plano.",
-    "El centro de notificaciones agrupa los mensajes por persona dentro de cada app.",
-    "La isla ya no muestra la cruz para cerrar."
+    "CoreOS 1.9.6 · Edición Corelux. Actualización para equipos con 1.3.",
+    "La isla ya no parpadea ni se desalinea: queda siempre dentro de la barra y por encima de ella.",
+    "Al minimizar el reproductor que está sonando, la ventana viaja hacia la isla y la isla la recibe con la música.",
+    "Eve se abre desde la isla al instante, ya dibujada (antes se veía un recuadro oscuro vacío).",
+    "Si el compositor se cuelga (pantalla congelada, por ejemplo al achicar una ventana) se recupera solo en segundos.",
+    "Inicio más prolijo: un solo compositor desde el principio (sin el parpadeo oscuro) y el escritorio aparece entero.",
+    "Llamadas de Instagram con el nombre y la foto de quien llama.",
+    "Centro de control y widget de Música con carátula y barra de progreso, para cualquier reproductor.",
+    "Al cambiar de canción la carátula anterior queda hasta que llega la nueva, y los widgets de música se actualizan al instante.",
+    "Diálogos del sistema rediseñados (vaciar la papelera, borrar, reemplazar): botones en píldora, más aire y título claro.",
+    "Listas desplegables redondeadas, sin el recuadro que aparecía alrededor.",
+    "Galería de widgets por secciones: Esenciales, Música, Productividad, Equipo y Apps.",
+    "Nuevos íconos propios de CoreOS: discos (sistema, SSD y externos), Bluetooth, correo, dibujo, juegos, descargas, máquinas virtuales, escritorio remoto y más.",
+    "Los botones de cerrar, minimizar y maximizar ya no muestran un cuadro oscuro al pasar el mouse."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.9.4/corelab-core_1.9.4_all.deb",
-  "sha256": "1e77d901d65f3ffaf0b53d500a86ad0b8bfcbb9e341c1c74ea91ecd5b56e7cb0",
-  "tamaño": 21582744
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.9.6/corelab-core_1.9.6_all.deb",
+  "sha256": "ab40bb1d29ee7b7aeb968b8475dbf7699334518b090b3de047c42d8e866e3cf7",
+  "tamaño": 21590856
 }
