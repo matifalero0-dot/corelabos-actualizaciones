@@ -1,22 +1,14 @@
 {
-  "version": "1.9.2",
-  "titulo": "corelabOS 1.9.2",
+  "version": "1.9.3",
+  "titulo": "corelabOS 1.9.3",
   "fecha": "2026-10-18",
   "notas": [
-    "CoreOS 1.9.2 · Edición Corelux. Actualización para equipos con 1.3.",
-    "Tonos de llamada «Corelux»: una melodía propia de CoreOS en siete variantes — Predeterminado, Cristalino, Diáfano, Dinámico, Eléctrico, Onírico y Estanque. Elegilo en Ajustes → Sonido → Tono de llamada (al tocarlo suena).",
-    "Avisos melódicos: cada notificación es una frase corta con eco, y cada app tiene su propia melodía.",
-    "Mensajes de Instagram con nombre: cada mensaje nuevo llega por separado con la persona y el texto, en vez de «Tenés notificaciones no leídas».",
-    "La isla muestra cada mensaje por separado (sin «2 mensajes» ni «+1 más»), ya no tiene cruz, no parpadea y al compactarse vuelve a su lugar sin saltitos.",
-    "Clima con cielo dibujado: nubes en capas, sol, lluvia, nieve, niebla, estrellas y luna según el tiempo que hace.",
-    "Centro de notificaciones rediseñado: la hora grande arriba, tarjetas de cristal más amplias y el calendario compacto (se pliega solo si hay varias notificaciones).",
-    "Bloquear y desbloquear más suaves: la pantalla de bloqueo se enciende de a poco y al desbloquear el escritorio aparece entero con un fundido.",
-    "El logo de la barra es negro en modo claro y blanco en modo oscuro, y desde su menú Cerrar sesión, Reiniciar y Apagar se hacen directamente.",
-    "En el dock, Ajustes ya no aparece como «Bienvenida».",
-    "Se acabó la ventana de error en inglés «Failed to send D-Bus message» que aparecía si la barra se estaba reiniciando.",
-    "Los textos del sistema hablan solo de CoreOS."
+    "CoreOS 1.9.3 · Edición Corelux. Actualización para equipos con 1.3.",
+    "La pantalla siempre activa (AOD) ya no se apaga sola con el tiempo, ni en la PC ni en la laptop (también con batería). En la laptop, al cerrar la tapa la pantalla se apaga y al abrirla vuelve el AOD.",
+    "La pantalla tampoco se apaga sola con la sesión abierta: al quedar inactiva se bloquea y pasa al AOD.",
+    "Alt + F4 cierra la app que está al frente y, sobre el escritorio, abre el menú de energía de CoreOS (ya no aparece el cuadro viejo)."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.9.2/corelab-core_1.9.2_all.deb",
-  "sha256": "d53e631e42e429ccbea3b4cc2cf431ac8ccb5333ce6f1e0f34f800808ef272b5",
-  "tamaño": 21564280
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.9.3/corelab-core_1.9.3_all.deb",
+  "sha256": "d4fc9a7e55e8a246768cb55c56907300900cf44fd1f440cebd4d5d5d51e0e20b",
+  "tamaño": 21575948
 }
