@@ -1,9 +1,10 @@
 {
-  "version": "2.0.1",
-  "titulo": "CoreOS 2.0.1 · Edición Corelux",
+  "version": "2.0.1+1",
+  "titulo": "CoreOS 2.0.1 · Revisión 1 · Edición Corelux",
   "fecha": "2026-10-18",
   "notas": [
-    "CoreOS 2.0.1 · Edición Corelux.",
+    "CoreOS 2.0.1 · Revisión 1 · Edición Corelux.",
+    "Navegación por teclado: corregida la espera de eventos X11 al consultar la hora del servidor para cambiar escritorios y ordenar ventanas.",
     "Reproductor: barra de avance arrastrable con vista previa del tiempo y salto al soltar. La posición elegida se conserva mientras el motor confirma el cambio, sin volver atrás. Se puede seguir usando el teclado.",
     "Música del escritorio: la barra del widget general también permite arrastrar. Música y Spotify mantienen el avance al soltar, animan el cambio de reproducir a pausa y oscurecen suavemente la portada al pausar.",
     "Reproductor integrado: el triángulo se transforma en pausa con una transición breve. Los controles de video pueden reaparecer durante su fundido sin animaciones superpuestas; el fondo musical se limita a 30 cuadros por segundo y deja de animarse en pausa.",
@@ -17,7 +18,7 @@
     "Botones de ventana: círculos de color lisos también al pasar el puntero y pulsar, con el mismo tratamiento en los temas de CoreOS.",
     "Menos movimiento: se desactivan también las animaciones particulares de ventanas y superficies; el perfil de renderizado por software aplica la misma reducción."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v2.0.1/corelab-core_2.0.1_all.deb",
-  "sha256": "eb35580116eea59fb11f82eb967f2829a0fcc2cb689d200088be07d6d05b4d3d",
-  "tamaño": 21620708
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v2.0.1+1/corelab-core_2.0.1+1_all.deb",
+  "sha256": "a85c50d286676b9dd96717be595876ed3222083fd53df4e75d5e8293852da51a",
+  "tamaño": 21589748
 }
