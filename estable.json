@@ -1,14 +1,17 @@
 {
-  "version": "1.9.3",
-  "titulo": "corelabOS 1.9.3",
+  "version": "1.9.4",
+  "titulo": "corelabOS 1.9.4",
   "fecha": "2026-10-18",
   "notas": [
-    "CoreOS 1.9.3 · Edición Corelux. Actualización para equipos con 1.3.",
-    "La pantalla siempre activa (AOD) ya no se apaga sola con el tiempo, ni en la PC ni en la laptop (también con batería). En la laptop, al cerrar la tapa la pantalla se apaga y al abrirla vuelve el AOD.",
-    "La pantalla tampoco se apaga sola con la sesión abierta: al quedar inactiva se bloquea y pasa al AOD.",
-    "Alt + F4 cierra la app que está al frente y, sobre el escritorio, abre el menú de energía de CoreOS (ya no aparece el cuadro viejo)."
+    "CoreOS 1.9.4 · Edición Corelux. Actualización para equipos con 1.3.",
+    "La isla vuelve a estar dentro de la barra superior y ya no se corre de lugar: era el rectángulo negro que aparecía arriba a la izquierda.",
+    "El centro de notificaciones ya no muestra esquinas oscuras alrededor de las tarjetas cuando se abre recién iniciada la sesión.",
+    "Inicio más rápido: el escritorio aparece apenas están la barra y el fondo; el dock y la isla llegan solos un instante después, sin dejar la pantalla violeta esperando.",
+    "Los mensajes muestran la foto de la persona en la isla y en el centro de notificaciones, también los de Instagram en segundo plano.",
+    "El centro de notificaciones agrupa los mensajes por persona dentro de cada app.",
+    "La isla ya no muestra la cruz para cerrar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.9.3/corelab-core_1.9.3_all.deb",
-  "sha256": "d4fc9a7e55e8a246768cb55c56907300900cf44fd1f440cebd4d5d5d51e0e20b",
-  "tamaño": 21575948
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.9.4/corelab-core_1.9.4_all.deb",
+  "sha256": "1e77d901d65f3ffaf0b53d500a86ad0b8bfcbb9e341c1c74ea91ecd5b56e7cb0",
+  "tamaño": 21582744
 }
