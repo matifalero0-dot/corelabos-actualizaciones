@@ -1,25 +1,23 @@
 {
-  "version": "2.0",
-  "titulo": "corelabOS 2.0",
+  "version": "2.0.1",
+  "titulo": "CoreOS 2.0.1 · Edición Corelux",
   "fecha": "2026-10-18",
   "notas": [
-    "CoreOS 2.0 · Edición Corelux. Actualización para equipos con 1.3.",
-    "Esquinas activas: llevá el puntero a una esquina para ver todas tus ventanas, mostrar el escritorio, abrir las apps, las notificaciones, el centro de control, Eve o bloquear (Ajustes › Mouse y dispositivos).",
-    "Agitá el mouse para encontrarlo: el puntero se agranda un momento.",
-    "Ver todas las ventanas: una vista que queda abierta hasta que elegís una (desde una esquina activa).",
-    "Eve se abre y se cierra con un fundido suave, completa desde el primer cuadro y sin bajar la fluidez del sistema.",
-    "Clima va fluido: el cielo dibujado se prepara una sola vez (antes se redibujaba entero con cada movimiento y la app se trababa).",
-    "Llamadas: un solo tono (antes podían sonar dos), Atender desde la isla funciona siempre y la pantalla de llamada tiene esquinas redondeadas.",
-    "El centro de control muestra el volumen y el brillo reales, también en monitores de escritorio.",
-    "Botones de ventana de colores (cerrar, minimizar y maximizar) también en WhatsApp, Instagram, TikTok, Brave y las demás apps, con un borde fino y prolijo.",
-    "La búsqueda queda fija en su lugar mientras escribís (antes saltaba al cambiar los resultados).",
-    "El ícono de cada sección de Ajustes se ve también en modo claro.",
-    "Sin la línea punteada debajo de las cabeceras al desplazar.",
-    "El nombre del sistema es CoreOS en todas las pantallas.",
-    "El menú de apps tiene el pie más limpio.",
-    "La música de un navegador ya no se oculta de la isla cuando el navegador está al frente."
+    "CoreOS 2.0.1 · Edición Corelux.",
+    "Reproductor: barra de avance arrastrable con vista previa del tiempo y salto al soltar. La posición elegida se conserva mientras el motor confirma el cambio, sin volver atrás. Se puede seguir usando el teclado.",
+    "Música del escritorio: la barra del widget general también permite arrastrar. Música y Spotify mantienen el avance al soltar, animan el cambio de reproducir a pausa y oscurecen suavemente la portada al pausar.",
+    "Reproductor integrado: el triángulo se transforma en pausa con una transición breve. Los controles de video pueden reaparecer durante su fundido sin animaciones superpuestas; el fondo musical se limita a 30 cuadros por segundo y deja de animarse en pausa.",
+    "Integración multimedia: avance absoluto y relativo por MPRIS, señal de cambio de posición, volumen y estado de avance disponibles para la isla, widgets y controles externos.",
+    "Ventanas: corregidas las reglas del compositor que buscaban las marcas de CoreOS en el marco equivocado. Se recuperan las transiciones al minimizar hacia el dock o la isla y al restaurar desde la isla; maximizar y restaurar tienen una transición propia, sin retrasar el arrastre normal.",
+    "Actividades de la isla: la música, Enfoque, temporizadores, cronómetro, grabación y las actividades con una app identificada pueden dirigir su minimizado a la isla. Se limpian las marcas al cerrar la isla.",
+    "Escritorios por teclado: Super + Ctrl + flechas o Ctrl + Alt + flechas cambian de escritorio con un deslizamiento. Super + Ctrl + D crea otro y Super + Ctrl + F4 lo cierra conservando sus ventanas. Las cuentas con un solo escritorio reciben cuatro; se desactiva el cambio accidental con la rueda y al arrastrar al borde.",
+    "Teclas multimedia: volumen, silencio, micrófono, brillo y reproducción desde las teclas especiales del equipo. Las repeticiones de volumen y brillo se agrupan; una pantalla lenta al cambiar brillo no bloquea el volumen.",
+    "Brillo: soporte DDC/CI para monitores compatibles, además de la luz de fondo de laptops. Se incluye ddcutil y la carga de i2c-dev; se respeta el rango real que informa el monitor y se evita el doble cambio de brillo del administrador de energía.",
+    "Perfil y cuenta: cabecera con foto, nombre, usuario y tipo de cuenta; galería de avatares en filas y edición del nombre adaptable al ancho de la ventana. El nombre se actualiza en la cabecera al guardarlo.",
+    "Botones de ventana: círculos de color lisos también al pasar el puntero y pulsar, con el mismo tratamiento en los temas de CoreOS.",
+    "Menos movimiento: se desactivan también las animaciones particulares de ventanas y superficies; el perfil de renderizado por software aplica la misma reducción."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v2.0/corelab-core_2.0_all.deb",
-  "sha256": "73f6291d8efbda6a6f1e5033bfa52130dfac8d345b4e22f369ae522f081b16bd",
-  "tamaño": 21596528
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v2.0.1/corelab-core_2.0.1_all.deb",
+  "sha256": "eb35580116eea59fb11f82eb967f2829a0fcc2cb689d200088be07d6d05b4d3d",
+  "tamaño": 21620708
 }
