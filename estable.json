@@ -1,12 +1,18 @@
 {
-  "version": "1.7.1",
-  "titulo": "corelabOS 1.7.1",
-  "fecha": "2026-10-17",
+  "version": "1.8",
+  "titulo": "corelabOS 1.8",
+  "fecha": "2026-10-18",
   "notas": [
-    "CoreOS 1.7.1 · Edición Corelux. Actualización para equipos con 1.3.",
-    "Fondos en movimiento personalizados: elegí tu propio video (MP4, WebM, MOV…) o un GIF y CoreOS lo pone de fondo, en bucle y sin sonido, llenando la pantalla. Lo decodifica la placa de video y se pausa solo con juegos, con batería o con el equipo bloqueado. Está en Fondos vivos → «Tu propio fondo en movimiento»."
+    "CoreOS 1.8 · Edición Corelux. Actualización para equipos con 1.3.",
+    "WhatsApp e Instagram ya no se abren solos: ahora tienen un servicio en segundo plano de verdad, como en un teléfono. Con la app cerrada reciben mensajes y llamadas sin ninguna ventana, con prioridad baja (casi no usan el procesador); al abrirlas, el servicio le pasa tu sesión a la ventana y consumen lo normal. Al cerrarla vuelven solas al segundo plano.",
+    "Nueva sección Ajustes → Segundo plano: activá o desactivá el segundo plano de cada app y mirá cuánta memoria usa.",
+    "Atender una llamada desde la isla con la app cerrada abre WhatsApp o Instagram y la atiende ahí.",
+    "Eve se abre al instante: queda lista en segundo plano (sin usar el procesador) en vez de cargarse cada vez que la llamás.",
+    "La isla ya no se pone gris al abrir el centro de control o Eve: queda siempre por encima de la barra.",
+    "Bloqueo más prolijo: la barra superior y la isla quedan tapadas al bloquear y no aparecen de golpe al desbloquear.",
+    "Se acabó el cartel «No se puede cargar el complemento… ¿Eliminar?» al iniciar: la barra se revisa antes de arrancar y, si alguna vez se cierra, vuelve sola."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.7.1/corelab-core_1.7.1_all.deb",
-  "sha256": "094197145723555c9a244f59dead403bec29c53f583349ae2d12bcd64da5425a",
-  "tamaño": 13156968
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v1.8/corelab-core_1.8_all.deb",
+  "sha256": "481d1f1fd41389289371ac377871df3dcf747b23bbb7daf92e396f20ed0ba058",
+  "tamaño": 13173748
 }
