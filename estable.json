@@ -1,24 +1,22 @@
 {
-  "version": "2.0.1+1",
-  "titulo": "CoreOS 2.0.1 · Revisión 1 · Edición Corelux",
+  "version": "2.0.2",
+  "titulo": "CoreOS 2.0.2 · Edición Corelux",
   "fecha": "2026-10-18",
   "notas": [
-    "CoreOS 2.0.1 · Revisión 1 · Edición Corelux.",
-    "Navegación por teclado: corregida la espera de eventos X11 al consultar la hora del servidor para cambiar escritorios y ordenar ventanas.",
-    "Reproductor: barra de avance arrastrable con vista previa del tiempo y salto al soltar. La posición elegida se conserva mientras el motor confirma el cambio, sin volver atrás. Se puede seguir usando el teclado.",
-    "Música del escritorio: la barra del widget general también permite arrastrar. Música y Spotify mantienen el avance al soltar, animan el cambio de reproducir a pausa y oscurecen suavemente la portada al pausar.",
-    "Reproductor integrado: el triángulo se transforma en pausa con una transición breve. Los controles de video pueden reaparecer durante su fundido sin animaciones superpuestas; el fondo musical se limita a 30 cuadros por segundo y deja de animarse en pausa.",
-    "Integración multimedia: avance absoluto y relativo por MPRIS, señal de cambio de posición, volumen y estado de avance disponibles para la isla, widgets y controles externos.",
-    "Ventanas: corregidas las reglas del compositor que buscaban las marcas de CoreOS en el marco equivocado. Se recuperan las transiciones al minimizar hacia el dock o la isla y al restaurar desde la isla; maximizar y restaurar tienen una transición propia, sin retrasar el arrastre normal.",
-    "Actividades de la isla: la música, Enfoque, temporizadores, cronómetro, grabación y las actividades con una app identificada pueden dirigir su minimizado a la isla. Se limpian las marcas al cerrar la isla.",
-    "Escritorios por teclado: Super + Ctrl + flechas o Ctrl + Alt + flechas cambian de escritorio con un deslizamiento. Super + Ctrl + D crea otro y Super + Ctrl + F4 lo cierra conservando sus ventanas. Las cuentas con un solo escritorio reciben cuatro; se desactiva el cambio accidental con la rueda y al arrastrar al borde.",
-    "Teclas multimedia: volumen, silencio, micrófono, brillo y reproducción desde las teclas especiales del equipo. Las repeticiones de volumen y brillo se agrupan; una pantalla lenta al cambiar brillo no bloquea el volumen.",
-    "Brillo: soporte DDC/CI para monitores compatibles, además de la luz de fondo de laptops. Se incluye ddcutil y la carga de i2c-dev; se respeta el rango real que informa el monitor y se evita el doble cambio de brillo del administrador de energía.",
-    "Perfil y cuenta: cabecera con foto, nombre, usuario y tipo de cuenta; galería de avatares en filas y edición del nombre adaptable al ancho de la ventana. El nombre se actualiza en la cabecera al guardarlo.",
-    "Botones de ventana: círculos de color lisos también al pasar el puntero y pulsar, con el mismo tratamiento en los temas de CoreOS.",
-    "Menos movimiento: se desactivan también las animaciones particulares de ventanas y superficies; el perfil de renderizado por software aplica la misma reducción."
+    "CoreOS 2.0.2 · Edición Corelux.",
+    "Eve: abrir el panel ya no precarga la IA local, el motor semántico ni la voz. La consulta de la selección de texto es asíncrona; se evita esperar a xclip o xsel en el hilo de la interfaz.",
+    "Eve: foco normal de ventana, sin capturar globalmente el teclado y el mouse. Podés seguir usando otras apps mientras responde. La reserva oculta no mantiene un reloj de animación ni prepara el efecto del borde de pantalla.",
+    "Renderizado de Eve: el halo usa una superficie recortada a su tamaño y menos trazos. El borde del panel se dibuja sin tres superficies intermedias de la conversación; en reposo se actualiza solo el área del halo. El cristal conserva una luz ambiental estable.",
+    "Pantallas: el panel de Eve se coloca en el monitor del puntero al invocarlo, también si la reserva se creó en otra pantalla. Su ancho y la altura disponible para mensajes se ajustan al monitor.",
+    "Voz: consultar la fuente de micrófono no bloquea GTK. Cerrar Eve cancela también un Piper que todavía está cargando; una detección de interrupción tardía no vuelve a abrir el micrófono.",
+    "IA local: el ajuste automático reserva capacidad de CPU para el escritorio y respeta los procesadores disponibles. Antes de cargar se conserva un margen de memoria y se incluye el proyector de visión en la estimación.",
+    "Mensajes: reconexión con pausas progresivas tras fallos de transporte y recuperación de vistas terminadas. Las cuentas abiertas vuelven a intentarlo al regresar la red; las vistas en reposo no se despiertan. No se interrumpen permisos, accesos ni descargas pendientes.",
+    "Notificaciones de WhatsApp e Instagram: dos trabajadores y una cola limitada sustituyen el hilo por aviso. Los avisos genéricos se aplazan sin ocupar un trabajador; las fotos de contactos conservadas en memoria tienen un límite.",
+    "Bloqueo: el inicio del bloqueo se conserva mientras logind o la consola indiquen que la sesión sigue protegida. El historial se lee una sola vez por actualización y un estado de llamada incompleto ya no detiene la publicación de avisos.",
+    "AOD: los mensajes sucesivos del mismo remitente dentro de un minuto se distinguen por su identificador e instante, para actualizar las tarjetas y la iluminación de llegada.",
+    "Sintaxis e integridad comprobadas; fluidez visual, audio y sesiones autenticadas pendientes de uso en el equipo de destino."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v2.0.1+1/corelab-core_2.0.1+1_all.deb",
-  "sha256": "a85c50d286676b9dd96717be595876ed3222083fd53df4e75d5e8293852da51a",
-  "tamaño": 21589748
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v2.0.2/corelab-core_2.0.2_all.deb",
+  "sha256": "2555c6fac1226f893b9404bb9d7e42bc11465780175c7efa5cfb3d388fcf7655",
+  "tamaño": 21583000
 }
