@@ -1,23 +1,25 @@
 {
-  "version": "2.0.4",
-  "titulo": "CoreOS 2.0.4 · Edición Corelux",
+  "version": "2.0.5",
+  "titulo": "CoreOS 2.0.5 · Edición Corelux",
   "fecha": "2026-10-19",
   "notas": [
-    "CoreOS 2.0.4 · Edición Corelux.",
-    "Eve guarda el cristal del panel como una textura, limita el dibujo animado al halo y detiene los repintados cuando queda en reposo. La entrada tiene un desplazamiento breve y un fundido; las respuestas aparecen completas sin recalcular el texto letra por letra.",
-    "Las búsquedas de Eve distinguen Spotify, YouTube, Google, Wikipedia, la web, archivos y apps instaladas. Spotify recibe canción y artista por separado; podés corregir el artista o cambiar el destino en el siguiente mensaje.",
-    "«Cerrate», «no necesito más nada» y las despedidas detienen la escucha y cierran Eve. Las órdenes de cancelar se resuelven antes del modelo, incluso con una consulta en curso.",
-    "Eve puede pedir llamadas en WhatsApp e Instagram cuando el motor está activo y la conversación ofrece un botón de llamada de voz. Verifica el contacto y comunica si falta seleccionar la conversación, iniciar sesión o esperar a la app; no afirma que la llamada esté conectada.",
-    "Las preguntas sobre notificaciones y sus seguimientos consultan el historial real y el estado de lectura. Se respeta el contenido privado; los contactos y las cantidades no se deducen de respuestas anteriores del modelo.",
-    "Se corrigen la apertura del navegador desde las conexiones de IA, los errores de inicio y la cancelación de OpenRouter. El retorno de autorización verifica estado, ruta y PKCE; las credenciales solo se guardan al completar la autorización.",
-    "Alt+Tab muestra miniaturas con esquinas redondeadas, selección más clara y fundidos breves. Actualiza la vista seleccionada mientras está abierto y activa la ventana sin esperar a que termine el fundido de salida.",
-    "Brave tiene un icono propio con el león y colores cálidos, adaptado al estilo CoreOS y disponible también para su instalación Flatpak.",
-    "El nuevo actualizador descarga y verifica sin instalar durante la sesión. Las próximas actualizaciones de CoreOS se aplicarán al reiniciar, antes del escritorio, y volverán a verificar la firma y el paquete preparado.",
-    "Durante la instalación se conserva el arranque negro con el logo blanco de CoreOS; la barra solo aparece al actualizar y avanza por etapas confirmadas. Ajustes muestra si la descarga está preparada o si hace falta reintentar.",
-    "Esta entrega instala el nuevo actualizador. Reiniciá después de instalarla; las próximas versiones se aplicarán durante el reinicio.",
-    "Sintaxis e integridad comprobadas; acceso OAuth comprobado con proveedores simulados. Fluidez, llamadas, cuentas personales y arranque offline pendientes de comprobación en el equipo instalado."
+    "CoreOS 2.0.5 · Edición Corelux.",
+    "La isla conserva la selección al tocar una actividad secundaria, da prioridad a las llamadas entrantes y vuelve a la actividad anterior después de un aviso. Los mensajes tienen espacio para su texto; actualizar la burbuja secundaria no reinicia el fundido de la principal.",
+    "Se ajustan el recorrido, la contracción y el fundido de las ventanas con actividad al minimizarse hacia la isla. La música en pausa permanece hasta treinta segundos para permitir retomarla.",
+    "Eve abre y recoge su panel con una transición de gota desde la isla. El cristal usa una textura cacheada durante el movimiento y el contenido aparece cuando cabe en la superficie; se respeta Reducir movimiento.",
+    "Eve muestra progresivamente la respuesta local, atiende más pedidos cotidianos mediante la capa rápida y limita las esperas sin respuesta visible. La configuración automática del modelo reserva capacidad de CPU para la interfaz.",
+    "Las acciones exitosas de la capa rápida y las búsquedas se guardan como recetas locales. Se conservan hasta trescientas recetas aprendidas; «repetí la última acción» recupera la última confirmada. Los nombres de apps, archivos y canciones no se sustituyen por coincidencias aproximadas.",
+    "La activación por voz requiere una elección explícita en Ajustes. Reiniciar o reparar la escucha no la habilita. Después de esta actualización, volvé a encenderla si querés usarla. El halo de colores del borde aparece únicamente al invocar Eve mediante la frase de voz.",
+    "El centro de control incorpora un reproductor ampliado con carátula, tiempos, controles y barra arrastrable. La búsqueda de posición se dirige al reproductor seleccionado y verifica que siga siendo la misma pista. Reproducir y pausar tienen un fundido breve del icono.",
+    "WhatsApp e Instagram informan niveles separados de voz mediante sus conexiones WebRTC: naranja para el micrófono local y verde para la voz remota. No se abre otra captura de micrófono ni se confunde la música del escritorio con la llamada; sin medición reciente, los indicadores quedan en silencio.",
+    "Silenciar desde la isla y desde la pantalla de llamada solicita la acción al motor y espera su confirmación. El tono de silencio o reactivación acompaña el cambio confirmado; terminar una llamada tiene sonido y salida gradual. Las operaciones de audio del panel se ejecutan fuera del hilo de la interfaz.",
+    "Wi-Fi usa una imagen compatible con el panel y Bluetooth cuenta con un indicador propio. Se simplifican sus iconos y se ajusta el contraste en ambos temas.",
+    "Se renuevan los siete tonos Corelux y los tonos propios de llamada de WhatsApp, Instagram, Messenger y el sistema. Melodías originales de registro medio y grave, timbre cálido de piano, ataques suaves, reverberación discreta y un final que se desvanece antes de repetirse.",
+    "Se corrigen las esquinas de las ventanas CSD y se retira el desenfoque o sombra rectangular de los globos de ayuda y menús flotantes. Las superficies GTK comparten fondos y contornos coherentes.",
+    "La actualización conserva el mecanismo de instalación al reiniciar, con fondo negro, logo blanco de CoreOS y barra de progreso durante la instalación.",
+    "Revisión estática e integridad del paquete firmado. Llamadas autenticadas, niveles WebRTC, rendimiento y actualización al reiniciar pendientes de comprobación en el equipo instalado."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v2.0.4/corelab-core_2.0.4_all.deb",
-  "sha256": "f925089509f474f8de133188edf8ed1b25ce59996829f6bcb6b7841bceb05b8a",
-  "tamaño": 21643124
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v2.0.5/corelab-core_2.0.5_all.deb",
+  "sha256": "793a4ae9cc33abd0e51f1ee21bfdd53a389b75e23b216b4782f3cb93724f81ef",
+  "tamaño": 18438556
 }
