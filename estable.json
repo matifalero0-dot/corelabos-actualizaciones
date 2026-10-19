@@ -1,22 +1,26 @@
 {
-  "version": "2.0.7",
-  "titulo": "CoreOS 2.0.7 · Edición Corelux",
+  "version": "3.0",
+  "titulo": "CoreOS 3.0 · Edición Corelux",
   "fecha": "2026-10-19",
   "notas": [
-    "CoreOS 2.0.7 · Edición Corelux.",
-    "Actualizaciones independientes de Timeshift: descargar, verificar y aplicar al reiniciar no crea puntos de restauración ni exige instalar/configurar Timeshift. Se conserva la verificación de firma, paquete y versión. Se incluye una herramienta firmada para recuperar actualizadores antiguos bloqueados.",
-    "Timeshift: mejor resolución del destino montado y de UUID en LUKS/LVM; configuración escrita de forma atómica, conservación de destinos válidos y diagnóstico de disco ausente/espacio insuficiente. Ajustes ofrece reparar su configuración y crear copias por separado.",
-    "Llamadas: una sola onda compartida por el panel de llamada y la isla, con naranja para el micrófono de esta computadora y verde para el audio remoto. Las pistas WebRTC proporcionan muestras independientes; el silencio queda plano.",
-    "Micrófono: controles web más resistentes a cambios de etiquetas, prioridad al marco de la llamada y respaldo sobre sus pistas ya autorizadas. El estado y los tonos se actualizan tras confirmar el cambio. Los errores de controles conservan la duración visible.",
-    "Eve: limpieza del área de dibujo en cada cuadro, sin rastros de orbes ni marcos acumulados. Apertura y cierre con una misma superficie, origen en la isla y transición continua al tamaño final.",
-    "Actividades: animación de entrada y salida de la isla independiente del orden entre el evento de minimizar y la propiedad HIDDEN. Se amplía la asociación de reproductores, llamadas y ventanas transitorias.",
-    "Pantallas: isla, Eve y centro de control comparten la pantalla principal elegida. Las nuevas ventanas GTK3/4 se abren en el monitor correspondiente y el compositor recalcula el destino de la isla al cambiar la disposición.",
-    "Diseño: ventanas GTK3 con recorte completo de sus esquinas; menús y selectores sin una placa rectangular de fondo; se quitan las sombras de popups, diálogos y avisos flotantes. Mejor coherencia entre GTK3 y GTK4.",
-    "Bluetooth: errores integrados en el panel, controles de radio sincronizados y conexión tras detener la búsqueda propia del adaptador. Los diálogos se reservan para confirmar códigos o permisos.",
-    "Memoria de IA: el proceso del modelo local se descarga automáticamente tras un minuto sin uso, o pocos segundos después de cerrar Eve. Las consultas activas entre aplicaciones mantienen un bloqueo compartido para que el supervisor espere a que terminen. Se conservan los modelos instalados y las conversaciones.",
-    "Sintaxis e integridad de la entrega firmada revisadas. Hardware Bluetooth, llamadas autenticadas, fluidez y dos pantallas pendientes de comprobación en el equipo instalado."
+    "CoreOS 3.0 · Edición Corelux.",
+    "Estudio rediseñado con proyectos, arreglo central, biblioteca de instrumentos y medidor estéreo basado en el audio renderizado. Se conservan síntesis, batería, sampler/SFZ, grabación de voz y MIDI, piano roll, automatización, efectos y host externo LV2. Paneles plegables y páginas desplazables para portátiles.",
+    "Composición: mover clips entre compases y pistas arrastrando, protección contra solapamientos, exportación MIDI tipo 1 con tempo y notas, biblioteca buscable y acceso directo a Eve para proponer progresiones en copias editables.",
+    "Audio: corregidas las notas sostenidas al renderizar fragmentos, la posición de automatización por tramo, los nombres repetidos de pistas y la exportación Opus (48 kHz). WAV y FLAC de 24 bits comprobados con FFmpeg/ffprobe. Exportación cancelable y archivos temporales que conservan el destino anterior.",
+    "Artwork conserva su motor de capas y animación: nueva disposición con herramientas, biblioteca de pinceles, inspector y miniaturas de fotogramas. Dureza, flujo, presión, estabilización y mezcla Normal/Multiplicar/Pantalla reales. Las miniaturas se reutilizan al reproducir para evitar renderizar toda la línea de tiempo en cada cuadro.",
+    "FlowCore: nueva aplicación nativa de diseño y presentaciones con texto, formas, imágenes, gráficos editables, capas, posición, tamaño, rotación, opacidad, tipografía, notas, plantillas, historial y recuperación automática. Presentación a pantalla completa con fundido entre diapositivas y formatos horizontal, vertical, cuadrado y A4.",
+    "FlowCore abre y guarda proyectos .coreflow con imágenes incorporadas. Importa/exporta PPTX con objetos compatibles editables; exporta PDF, PNG, SVG y presentaciones HTML sin conexión. PDF se importa como páginas de fondo para añadir contenido encima. PPT/ODP utilizan LibreOffice cuando está instalado. Los objetos avanzados no compatibles se informan; no se promete fidelidad universal ni importar proyectos privados de Canva.",
+    "Eve puede crear presentaciones FlowCore reales con títulos, contenido y notas, tras una confirmación. Se corrige el largo de los patrones de progresiones musicales para que suenen todos los compases propuestos.",
+    "Eve: leer una cuenta ya no migra ni escribe credenciales en el llavero. Caché breve de lecturas, almacenamiento privado atómico y escritura concurrente segura del historial. Los adjuntos y documentos se leen con límites desde disco, evitando cargar archivos enormes completos para después recortarlos.",
+    "Arranque: se conserva la espera de componentes y compositor; la pausa fija previa al fundido se sustituye por dos cuadros. El hito de escritorio interactivo se registra al retirar la cortina. Diagnóstico muestra hitos del arranque actual y distingue duración de unidades de bloqueo real.",
+    "Oficina: perfiles separados por conversión para evitar interferencias entre trabajos de LibreOffice. Dependencias PPTX incluidas mediante python-pptx 1.0.2 y bibliotecas Debian, sin pip durante la actualización.",
+    "Auditoría reproducible de scripts, accesos, servicios y dependencias; regresiones de motores, voz, privacidad, credenciales, formatos y seis aplicaciones en claro/oscuro. Informe completo con cobertura y limitaciones en /usr/share/doc/corelab/auditoria-3.0.md. No se sustituyen pruebas de hardware por cifras inventadas.",
+    "Incluye las correcciones 2.0.7: actualizaciones independientes de Timeshift y aplicadas al reiniciar, reparación manual de copias, onda naranja/verde compartida por llamada e isla, recorte de ventanas y popups, pantalla principal y liberación del modelo tras la inactividad. Consultas activas mantienen protegido el proceso compartido.",
+    "Bloqueo: reproductor real para apps MPRIS, con portada, pausa/reproducción, anterior/siguiente y posición cuando la app lo permite. El fondo adopta la portada con un fundido y recupera el fondo elegido al dejar de reproducir. El canal solo admite controles multimedia, valida las credenciales Linux de ambos extremos y no abre aplicaciones ni URI.",
+    "AOD: reproductor y notificaciones atenuados, incluidos iconos y texto. El reproductor no ejecuta controles en AOD; el primer toque o tecla despierta el bloqueo. La contraseña conserva su protección y las respuestas a mensajes siguen requiriendo autenticación.",
+    "Avisos en bloqueo y AOD: corregido el límite que descartaba instantáneas completas al acumular varios mensajes con caracteres largos. Se conserva el comienzo del bloqueo también al usar el atajo sin animación. Pruebas de la ruta notificador → historial → publicador → tarjetas de ambos estados, con privacidad de contenido/remitentes y ocultación; recepción con cuentas personales pendiente de comprobar en la instalación."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v2.0.7/corelab-core_2.0.7_all.deb",
-  "sha256": "845297e2530fedf961343b21721cc6edc1cd72b32d71a0ff7984c40c8a1e602a",
-  "tamaño": 18433628
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v3.0/corelab-core_3.0_all.deb",
+  "sha256": "67de93dcdaa7098d9e13c2c74f163549bc524071e7841672331fba49d241c194",
+  "tamaño": 18867940
 }
