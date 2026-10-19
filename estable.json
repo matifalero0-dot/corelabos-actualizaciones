@@ -1,25 +1,22 @@
 {
-  "version": "2.0.6",
-  "titulo": "CoreOS 2.0.6 · Edición Corelux",
+  "version": "2.0.7",
+  "titulo": "CoreOS 2.0.7 · Edición Corelux",
   "fecha": "2026-10-19",
   "notas": [
-    "CoreOS 2.0.6 · Edición Corelux.",
-    "La barra superior usa imágenes PNG cacheadas para Wi-Fi, Bluetooth, avisos, música, clima e IA. Los indicadores principales conservan un texto de respaldo si no se puede cargar la imagen. Se corrigen los clics y se evita forzar búsquedas de redes al refrescar Wi-Fi.",
-    "Bluetooth permite buscar, emparejar, conectar y desconectar dispositivos dentro del centro de control. Las confirmaciones y los códigos de emparejamiento usan diálogos del sistema; el menú libera la captura del teclado y el mouse mientras se confirma una conexión.",
-    "Las consultas automáticas de credenciales ya no solicitan desbloquear el llavero. Guardar una clave sigue siendo una operación explícita y se conserva la protección del almacenamiento existente.",
-    "Ajustes incorpora reproducción y parada para los tonos de llamada, la melodía de inicio, las categorías de sonidos y los sonidos de Eve. Solo suena una previsualización por ventana y se detiene al abandonar la página. Elegir un tono no reproduce muestras al abrir la lista.",
-    "La activación por voz utiliza una preferencia propia, escrita únicamente desde su interruptor. Los valores heredados ya no activan la escucha. Después de actualizar, habilitala expresamente si querés usar «Oye Eve».",
-    "Se recupera el sonido de activación cuando Eve vive en la isla. La invocación por voz conserva el halo de colores del borde; el panel y la esfera nacen desde la posición de la isla y regresan a ella. El orbe permanece animado en reposo, redibujando solo su zona a una frecuencia moderada.",
-    "El panel de Eve usa una apertura de gota con crecimiento progresivo, cuello de unión y asentamiento suave. La superficie se reutiliza durante el movimiento y el contenido aparece con un fundido, sin reconstruir sombras en cada cuadro.",
-    "Las ventanas con actividad se contraen hacia el centro de la isla con un recorrido corregido, pliegue progresivo y fundido final. Al restaurarlas, parten de la misma posición y se despliegan con un resorte discreto. La recepción de la isla acompaña el nuevo tiempo de llegada.",
-    "Las llamadas leen niveles de las pistas ya autorizadas por la app, además de las estadísticas WebRTC. Se observa también el contenido de llamada en marcos independientes y se separan los niveles locales y remotos. No se solicita otro micrófono ni se simulan ondas cuando no hay datos.",
-    "Los sonidos de silencio, reactivación y fin de llamada pueden reproducirse directamente desde sus archivos, sin depender de que el tema de audio resuelva el nombre del evento. El cambio de silencio continúa sujeto a la confirmación de la app.",
-    "Se aclara el fondo del widget de Spotify y se reduce el oscurecimiento de las carátulas en pausa. Se corrige el fondo raíz de ventanas y diálogos para acompañar sus esquinas redondeadas y se eliminan fondos auxiliares de campos de texto.",
-    "La entrega incorpora un manifiesto de componentes. El instalador comprueba sus archivos y Acerca del sistema informa si hay componentes de otra versión, contemplando los lanzadores precompilados.",
-    "La actualización se aplica al reiniciar y mantiene la pantalla negra, el logo blanco de CoreOS y la barra de progreso.",
-    "Sintaxis e integridad de la entrega firmada revisadas. Bluetooth, llamadas, rendimiento gráfico y arranque pendientes de comprobación con el equipo instalado."
+    "CoreOS 2.0.7 · Edición Corelux.",
+    "Actualizaciones independientes de Timeshift: descargar, verificar y aplicar al reiniciar no crea puntos de restauración ni exige instalar/configurar Timeshift. Se conserva la verificación de firma, paquete y versión. Se incluye una herramienta firmada para recuperar actualizadores antiguos bloqueados.",
+    "Timeshift: mejor resolución del destino montado y de UUID en LUKS/LVM; configuración escrita de forma atómica, conservación de destinos válidos y diagnóstico de disco ausente/espacio insuficiente. Ajustes ofrece reparar su configuración y crear copias por separado.",
+    "Llamadas: una sola onda compartida por el panel de llamada y la isla, con naranja para el micrófono de esta computadora y verde para el audio remoto. Las pistas WebRTC proporcionan muestras independientes; el silencio queda plano.",
+    "Micrófono: controles web más resistentes a cambios de etiquetas, prioridad al marco de la llamada y respaldo sobre sus pistas ya autorizadas. El estado y los tonos se actualizan tras confirmar el cambio. Los errores de controles conservan la duración visible.",
+    "Eve: limpieza del área de dibujo en cada cuadro, sin rastros de orbes ni marcos acumulados. Apertura y cierre con una misma superficie, origen en la isla y transición continua al tamaño final.",
+    "Actividades: animación de entrada y salida de la isla independiente del orden entre el evento de minimizar y la propiedad HIDDEN. Se amplía la asociación de reproductores, llamadas y ventanas transitorias.",
+    "Pantallas: isla, Eve y centro de control comparten la pantalla principal elegida. Las nuevas ventanas GTK3/4 se abren en el monitor correspondiente y el compositor recalcula el destino de la isla al cambiar la disposición.",
+    "Diseño: ventanas GTK3 con recorte completo de sus esquinas; menús y selectores sin una placa rectangular de fondo; se quitan las sombras de popups, diálogos y avisos flotantes. Mejor coherencia entre GTK3 y GTK4.",
+    "Bluetooth: errores integrados en el panel, controles de radio sincronizados y conexión tras detener la búsqueda propia del adaptador. Los diálogos se reservan para confirmar códigos o permisos.",
+    "Memoria de IA: el proceso del modelo local se descarga automáticamente tras un minuto sin uso, o pocos segundos después de cerrar Eve. Las consultas activas entre aplicaciones mantienen un bloqueo compartido para que el supervisor espere a que terminen. Se conservan los modelos instalados y las conversaciones.",
+    "Sintaxis e integridad de la entrega firmada revisadas. Hardware Bluetooth, llamadas autenticadas, fluidez y dos pantallas pendientes de comprobación en el equipo instalado."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v2.0.6/corelab-core_2.0.6_all.deb",
-  "sha256": "88e5ecee251336aa50f62cfd8d9c5d3107b95d10f9e4d89bfac0ec029451e5c5",
-  "tamaño": 18458128
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v2.0.7/corelab-core_2.0.7_all.deb",
+  "sha256": "845297e2530fedf961343b21721cc6edc1cd72b32d71a0ff7984c40c8a1e602a",
+  "tamaño": 18433628
 }
