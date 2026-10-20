@@ -1,23 +1,18 @@
 {
-  "version": "3.2.3",
-  "titulo": "CoreOS 3.2.3 · Edición Corelux",
+  "version": "3.2.4",
+  "titulo": "CoreOS 3.2.4 · Edición Corelux",
   "fecha": "2026-10-20",
   "notas": [
-    "CoreOS 3.2.3 · Edición Corelux.",
-    "Ajustes reorganizado en grupos continuos: perfil, conexiones, batería, general, personalización, Eve, avisos, seguridad y aplicaciones. Mantiene el inicio sin esperar la detección biométrica.",
-    "Bluetooth comprueba el bloqueo de radio antes de encender. El interruptor refleja la respuesta real del adaptador y ofrece reparación autorizada del servicio y de la radio cuando hace falta. Emparejar, conectar, desconectar y olvidar dispositivos se realizan en Ajustes y Centro de control.",
-    "Se retira el menú de bandeja de Blueman mediante una presentación sin icono, manteniendo sus agentes. NetworkManager conserva su agente con el icono genérico desactivado. La bandeja sigue los nombres reales de los indicadores y conserva los de otras aplicaciones.",
-    "Los accesos heredados de los controles del escritorio llevan a las páginas de CoreOS. Ajustes incorpora conexiones guardadas con conexión, desconexión y olvido; mezclador de reproducción y micrófono por aplicación; perfiles de audio; distribución y repetición del teclado; opciones de suspensión, pantalla y tapa; aplicaciones adicionales de inicio de sesión. Las páginas habituales ya no incrustan ventanas genéricas.",
-    "Wine prepara la compatibilidad de 32 bits, amplía únicamente las fuentes oficiales de Debian que limitaban la arquitectura, comprueba los repositorios y repara dependencias pendientes antes de instalar. Simula las operaciones y rechaza planes que retiren aplicaciones. Conserva un registro de diagnóstico y no declara éxito cuando la instalación falla.",
-    "Menú de aplicaciones con entrada y salida propias, una textura reutilizada y reloj de cuadros; admite invertir la transición y respeta movimiento reducido. Se evita superponer la animación del compositor y se posponen las reconstrucciones del catálogo durante el movimiento.",
-    "Las actividades se estrechan y se recogen hacia el centro de la isla en dos tiempos; al restaurarlas se despliegan desde el mismo punto con un resorte discreto. Se mantiene el destino en la pantalla principal y la ruta de compatibilidad gráfica.",
-    "Los botones de ventana muestran cerrar, minimizar y maximizar al pasar el puntero. El marco de ventanas externas también incorpora los símbolos y distingue maximizar de restaurar. Los temas existentes se regeneran al iniciar sesión.",
-    "Archivos presenta un espacio de trabajo con contorno redondeado, lateral y ruta más integrados, cabecera con el nombre de la carpeta y botones coherentes con el sistema. Se corrige el texto blanco fijo de los detalles de lista que perdía contraste en modo claro. Los diálogos usan respuestas compactas y redondeadas.",
-    "Inicio de sesión: se retiene el fondo final del acceso en el servidor gráfico al terminar el proceso del greeter. La espera cuenta la isla y otras superficies fuera del gestor de ventanas. La cortina responde al reapilado de los componentes sin un temporizador de 200 ms, para evitar que asomen entre cuadros. Se mantienen el logo negro y blanco y el fundido al bloqueo.",
-    "Trece tonos de llamada renovados con pulsos originales alegres, breves, elásticos y más sonoros; se actualizan las siete variantes Corelux y las llamadas por aplicación. Se conservan las selecciones y los controles para escuchar y parar.",
-    "Entrega por el canal firmado existente. Los cambios se aplican al reiniciar el equipo."
+    "CoreOS 3.2.4 · Edición Corelux.",
+    "Eve incorpora un renderizador Qt Quick/PySide6 para abrirse y cerrarse desde la posición de la isla mediante una malla y shaders. Los controles y la conversación conservan su implementación nativa. Se elimina la unión negra entre la isla y el panel tanto en Qt como en GTK.",
+    "En equipos compatibles se precalienta la escena fuera de la interfaz y se comprueba un píxel dibujado por el shader antes de habilitarla. Si falta Qt, hay renderizado por software, movimiento reducido o el primer cuadro tarda demasiado, se utiliza la animación nativa.",
+    "Las texturas de transición se transmiten por memoria anónima, sin guardar capturas de la conversación a disco. Se retiran al terminar la animación; el renderizador sale después de 45 segundos sin uso. Una caída del proceso gráfico devuelve el control a Eve.",
+    "El dock y el menú de aplicaciones usan la activación asíncrona de GIO y conservan el contexto de inicio. La interfaz sigue respondiendo mientras la aplicación se inicia. El menú registra el uso fuera del hilo gráfico.",
+    "Las apps GTK4 limitan el trabajo de datos a cuatro tareas simultáneas. Las consultas reemplazadas se cancelan cuando aún están en espera y sus resultados no se aplican sobre vistas cerradas.",
+    "Qt Quick se incluye en la lista de paquetes de las nuevas ISO. En equipos existentes se instala desde Ajustes → Apariencia → Motor gráfico avanzado → Instalar o reparar. Es opcional para actualizar CoreOS y se puede desactivar desde Movimiento con Qt Quick.",
+    "Esta entrega migra la transición de Eve. La cápsula y las actividades de la isla conservan su motor actual; no se ha migrado todo el escritorio a Qt."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v3.2.3/corelab-core_3.2.3_all.deb",
-  "sha256": "a424f3d9d50f1afb9373524cd050bcdb6517e0492e94193fc08c9932b25f4035",
-  "tamaño": 14381264
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v3.2.4/corelab-core_3.2.4_all.deb",
+  "sha256": "faf09e9d3bb3dd7b1e95084409c1da97039498d237dd3ebd186cfe537458c853",
+  "tamaño": 14389552
 }
