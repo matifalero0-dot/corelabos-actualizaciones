@@ -1,18 +1,20 @@
 {
-  "version": "3.2.5",
-  "titulo": "CoreOS 3.2.5 · Edición Corelux",
+  "version": "4.0",
+  "titulo": "CoreOS 4.0 · Edición Corelux",
   "fecha": "2026-10-20",
   "notas": [
-    "CoreOS 3.2.5 · Edición Corelux.",
-    "La cápsula de la isla incorpora Qt Quick/PySide6 para expandirse, recogerse y cambiar entre actividades y avisos. Una malla animada combina deformación suave, curva de asentamiento y fundido de contenido. Si cambia la actividad durante la transición, parte del cuadro que ya se estaba mostrando.",
-    "Al llegar una ventana minimizada con actividad, la isla acompaña su recepción con un impulso amortiguado de la malla Qt. El recorrido de la ventana sigue coordinado con el compositor del escritorio.",
-    "Eve y la isla comparten un servicio gráfico por sesión y escala. Cada componente conserva su canal privado y puede cerrarse sin terminar la escena del otro. Las texturas viajan en memoria anónima y se retiran al terminar; el proceso sale después de 45 segundos sin transiciones.",
-    "La isla toma dos estados al cambiar de vista, con resolución adaptada a la pantalla. Durante la animación Qt se detiene el reloj de dibujo GTK. No se capturan imágenes ni se envían mensajes por cada fotograma, y los refrescos sin cambios no vuelven a cargar el motor.",
-    "Al terminar la transición vuelven los controles y el dibujo nativo de las ondas, el progreso y las llamadas con los datos reales del sistema. Si falta aceleración, se activa movimiento reducido o falla el renderizador, se conserva la alternativa nativa.",
-    "La escena de actividades se cancela al abrir el panel de Eve, bloquear la sesión o cambiar la posición de la isla. Se mantiene eliminada la unión negra entre Eve y la cápsula.",
-    "Se conservan el inicio asíncrono de apps y la cola acotada de tareas de la entrega anterior. Qt Quick continúa disponible desde Ajustes → Apariencia → Motor gráfico avanzado para instalaciones existentes y en la lista de paquetes de nuevas ISO."
+    "CoreOS 4.0 · Edición Corelux.",
+    "Core Motion incorpora Qt Quick y primitivas KDE Kirigami para las transiciones de Eve, la isla y las ventanas propias. La escena se prepara antes del relevo y comparte un proceso entre componentes, con texturas en memoria y salida automática al quedar inactivo.",
+    "Eve aparece y se recoge desde la posición de la isla. Se elimina la unión negra entre ambos, se suavizan los cambios de dirección y se precarga la conexión gráfica para evitar trabajo adicional al invocarla.",
+    "La isla cambia de tamaño con trayectorias que conservan posición, velocidad y aceleración al recibir otra actividad. Las ondas y los controles vuelven al dibujo nativo al terminar la transición.",
+    "Las ventanas propias compatibles reciben apertura y repliegue de actividades con Qt Quick. Se coordina la llegada a la isla y se conserva la respuesta nativa si el renderizador no está disponible. Cambiar de tamaño, de escala, de pantalla o bloquear la sesión devuelve el control a la ventana real.",
+    "Se unifican tiempos y curvas de ventanas con el compositor del escritorio, evitando que los cambios iniciales de tamaño u opacidad corten la apertura. El redimensionado manual conserva la ruta directa.",
+    "Se quita el icono cuadrado junto a los semáforos. Los botones de cerrar, minimizar y maximizar tienen sus acciones reales, nombres accesibles y símbolos al pasar el puntero.",
+    "Se recortan los cuerpos de ventana y las tarjetas por su contorno redondeado. Se corrigen fondos rectangulares en notificaciones y calendario, colores de textos en Archivos y sombras de los selectores de Clima. El respaldo XRender corrige restos negros al abrir menús.",
+    "Los avisos de mensajería excluyen los contadores de no leídos y las horas del texto del mensaje. Los números que pertenecen al contenido se conservan.",
+    "La actualización instala los módulos Qt/KDE necesarios y mantiene la firma del canal existente. Las aplicaciones creativas y Coreview quedan fuera de esta renovación, para continuarlas por separado."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v3.2.5/corelab-core_3.2.5_all.deb",
-  "sha256": "855f42b1ec990c5999f885481bf326d92dd5758b23dec0e64c5bc0dc03ddaf3d",
-  "tamaño": 14405880
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v4.0/corelab-core_4.0_all.deb",
+  "sha256": "4ac351c0fe0f4f27b6c9fbfafc9d1e1a4d76bf7be00c09bd854d2d449e11960b",
+  "tamaño": 14435988
 }
