@@ -1,18 +1,18 @@
 {
-  "version": "3.2.4",
-  "titulo": "CoreOS 3.2.4 · Edición Corelux",
+  "version": "3.2.5",
+  "titulo": "CoreOS 3.2.5 · Edición Corelux",
   "fecha": "2026-10-20",
   "notas": [
-    "CoreOS 3.2.4 · Edición Corelux.",
-    "Eve incorpora un renderizador Qt Quick/PySide6 para abrirse y cerrarse desde la posición de la isla mediante una malla y shaders. Los controles y la conversación conservan su implementación nativa. Se elimina la unión negra entre la isla y el panel tanto en Qt como en GTK.",
-    "En equipos compatibles se precalienta la escena fuera de la interfaz y se comprueba un píxel dibujado por el shader antes de habilitarla. Si falta Qt, hay renderizado por software, movimiento reducido o el primer cuadro tarda demasiado, se utiliza la animación nativa.",
-    "Las texturas de transición se transmiten por memoria anónima, sin guardar capturas de la conversación a disco. Se retiran al terminar la animación; el renderizador sale después de 45 segundos sin uso. Una caída del proceso gráfico devuelve el control a Eve.",
-    "El dock y el menú de aplicaciones usan la activación asíncrona de GIO y conservan el contexto de inicio. La interfaz sigue respondiendo mientras la aplicación se inicia. El menú registra el uso fuera del hilo gráfico.",
-    "Las apps GTK4 limitan el trabajo de datos a cuatro tareas simultáneas. Las consultas reemplazadas se cancelan cuando aún están en espera y sus resultados no se aplican sobre vistas cerradas.",
-    "Qt Quick se incluye en la lista de paquetes de las nuevas ISO. En equipos existentes se instala desde Ajustes → Apariencia → Motor gráfico avanzado → Instalar o reparar. Es opcional para actualizar CoreOS y se puede desactivar desde Movimiento con Qt Quick.",
-    "Esta entrega migra la transición de Eve. La cápsula y las actividades de la isla conservan su motor actual; no se ha migrado todo el escritorio a Qt."
+    "CoreOS 3.2.5 · Edición Corelux.",
+    "La cápsula de la isla incorpora Qt Quick/PySide6 para expandirse, recogerse y cambiar entre actividades y avisos. Una malla animada combina deformación suave, curva de asentamiento y fundido de contenido. Si cambia la actividad durante la transición, parte del cuadro que ya se estaba mostrando.",
+    "Al llegar una ventana minimizada con actividad, la isla acompaña su recepción con un impulso amortiguado de la malla Qt. El recorrido de la ventana sigue coordinado con el compositor del escritorio.",
+    "Eve y la isla comparten un servicio gráfico por sesión y escala. Cada componente conserva su canal privado y puede cerrarse sin terminar la escena del otro. Las texturas viajan en memoria anónima y se retiran al terminar; el proceso sale después de 45 segundos sin transiciones.",
+    "La isla toma dos estados al cambiar de vista, con resolución adaptada a la pantalla. Durante la animación Qt se detiene el reloj de dibujo GTK. No se capturan imágenes ni se envían mensajes por cada fotograma, y los refrescos sin cambios no vuelven a cargar el motor.",
+    "Al terminar la transición vuelven los controles y el dibujo nativo de las ondas, el progreso y las llamadas con los datos reales del sistema. Si falta aceleración, se activa movimiento reducido o falla el renderizador, se conserva la alternativa nativa.",
+    "La escena de actividades se cancela al abrir el panel de Eve, bloquear la sesión o cambiar la posición de la isla. Se mantiene eliminada la unión negra entre Eve y la cápsula.",
+    "Se conservan el inicio asíncrono de apps y la cola acotada de tareas de la entrega anterior. Qt Quick continúa disponible desde Ajustes → Apariencia → Motor gráfico avanzado para instalaciones existentes y en la lista de paquetes de nuevas ISO."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v3.2.4/corelab-core_3.2.4_all.deb",
-  "sha256": "faf09e9d3bb3dd7b1e95084409c1da97039498d237dd3ebd186cfe537458c853",
-  "tamaño": 14389552
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v3.2.5/corelab-core_3.2.5_all.deb",
+  "sha256": "855f42b1ec990c5999f885481bf326d92dd5758b23dec0e64c5bc0dc03ddaf3d",
+  "tamaño": 14405880
 }
