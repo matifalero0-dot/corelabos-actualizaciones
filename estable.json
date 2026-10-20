@@ -1,20 +1,16 @@
 {
-  "version": "4.0",
-  "titulo": "CoreOS 4.0 · Edición Corelux",
+  "version": "4.0.1",
+  "titulo": "CoreOS 4.0.1 · Edición Corelux",
   "fecha": "2026-10-20",
   "notas": [
-    "CoreOS 4.0 · Edición Corelux.",
-    "Core Motion incorpora Qt Quick y primitivas KDE Kirigami para las transiciones de Eve, la isla y las ventanas propias. La escena se prepara antes del relevo y comparte un proceso entre componentes, con texturas en memoria y salida automática al quedar inactivo.",
-    "Eve aparece y se recoge desde la posición de la isla. Se elimina la unión negra entre ambos, se suavizan los cambios de dirección y se precarga la conexión gráfica para evitar trabajo adicional al invocarla.",
-    "La isla cambia de tamaño con trayectorias que conservan posición, velocidad y aceleración al recibir otra actividad. Las ondas y los controles vuelven al dibujo nativo al terminar la transición.",
-    "Las ventanas propias compatibles reciben apertura y repliegue de actividades con Qt Quick. Se coordina la llegada a la isla y se conserva la respuesta nativa si el renderizador no está disponible. Cambiar de tamaño, de escala, de pantalla o bloquear la sesión devuelve el control a la ventana real.",
-    "Se unifican tiempos y curvas de ventanas con el compositor del escritorio, evitando que los cambios iniciales de tamaño u opacidad corten la apertura. El redimensionado manual conserva la ruta directa.",
-    "Se quita el icono cuadrado junto a los semáforos. Los botones de cerrar, minimizar y maximizar tienen sus acciones reales, nombres accesibles y símbolos al pasar el puntero.",
-    "Se recortan los cuerpos de ventana y las tarjetas por su contorno redondeado. Se corrigen fondos rectangulares en notificaciones y calendario, colores de textos en Archivos y sombras de los selectores de Clima. El respaldo XRender corrige restos negros al abrir menús.",
-    "Los avisos de mensajería excluyen los contadores de no leídos y las horas del texto del mensaje. Los números que pertenecen al contenido se conservan.",
-    "La actualización instala los módulos Qt/KDE necesarios y mantiene la firma del canal existente. Las aplicaciones creativas y Coreview quedan fuera de esta renovación, para continuarlas por separado."
+    "CoreOS 4.0.1 · Edición Corelux.",
+    "Se elimina la creación de puntos de restauración del actualizador antiguo de paquetes del sistema. Actualizar no configura Timeshift ni crea copias.",
+    "El instalador de reinicio se repara desde el paquete firmado antes de preparar la actualización. El reparador temporal ya no deja un instalador antiguo para el siguiente arranque. Se sustituye también la integración antigua de copias con APT.",
+    "Se pueden reemplazar preparaciones propias anteriores o fallidas por la descarga nueva verificada, incluso al reintentar la misma versión. Las opciones heredadas ya no activan copias de restauración. Se conserva la protección contra versiones anteriores y actualizadores ajenos.",
+    "Ajustes elimina el anuncio de creación de una copia y permite encontrar una versión más reciente aunque haya otra preparada. La instalación del sistema sigue aplicándose al reiniciar.",
+    "Para equipos cuyo actualizador instalado siga bloqueado por Timeshift, la publicación incluye CoreOS-Reparar-Actualizar.py firmado, que descarga el paquete verificado y repara el instalador para el próximo reinicio."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v4.0/corelab-core_4.0_all.deb",
-  "sha256": "4ac351c0fe0f4f27b6c9fbfafc9d1e1a4d76bf7be00c09bd854d2d449e11960b",
-  "tamaño": 14435988
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v4.0.1/corelab-core_4.0.1_all.deb",
+  "sha256": "30e96eb09314a4f66872a2f0bdf51f0b0c50cad4e5b3e4204e6cfebbda362914",
+  "tamaño": 14428588
 }
