@@ -1,20 +1,20 @@
 {
-  "version": "4.1",
-  "titulo": "CoreOS 4.1 · Edición Corelux",
+  "version": "4.2",
+  "titulo": "CoreOS 4.2 · Edición Corelux",
   "fecha": "2026-10-21",
   "notas": [
-    "CoreOS 4.1 · Edición Corelux.",
-    "Escritorio, Eve e isla comparten Qt Quick y KDE Kirigami con selección automática del bucle de renderizado. Se elimina un bloqueo al ejecutar callbacks Python desde el hilo gráfico. Las transiciones usan superficies acotadas al área visible, texturas HiDPI y geometría adaptable.",
-    "Apariencia incorpora controles de calidad gráfica, compatibilidad y liberación de recursos. La configuración automática adapta la carga y la reserva a la batería y al perfil guardado del equipo. PC y laptop reciben los mismos componentes; el diagnóstico distingue versión, GPU, controlador, pantallas y escalado.",
-    "El paso logo–acceso espera la preparación del fondo. El acceso y AOD comparten trayectorias reversibles; las imágenes, escalado y viñetas se preparan fuera del hilo de interfaz. La entrega al escritorio espera dos cuadros pintados y conserva el fondo a resolución física, incluidas varias pantallas.",
-    "Se corrige el error al conservar el fondo por segunda vez. El reloj, formulario, mensajes, llamadas y reproductor se desvanecen antes de entregar la sesión. La cortina replica el oscurecimiento en pantallas secundarias y conserva una salida animada sin compositor.",
-    "El reproductor de bloqueo y AOD mantiene su estado ante interrupciones breves de MPRIS. Las portadas se cargan aparte; el reloj multimedia usa tiempo monotónico. Los controles y el formulario de contraseña tienen posiciones separadas y una transición de disposición. AOD conserva el reproductor atenuado y sin acciones.",
-    "El contador musical de la isla usa cifras tabulares y elimina el salto vertical por segundo. El análisis de música utiliza PCM estéreo a 48 kHz y cuatro bandas cuando NumPy está disponible, con lectura reciente y sin acumulación de audio viejo. Un fallo momentáneo de consulta no reinicia todos los lectores.",
-    "Eve libera la ventana de reserva y termina su proceso tras el período de inactividad; el motor gráfico también libera sus texturas. La próxima invocación vuelve a abrirla mediante su lanzador.",
-    "Se publican los motores e interfaces de FlowCore, Artwork y Estudio que habían quedado fuera de las entregas del escritorio. FlowCore incluye edición vectorial, guías, capas, inspector y formatos compatibles; Artwork trabaja por teselas con capas, pinceles y fotogramas; Estudio incorpora biblioteca, mezcla, automatización, notas MIDI, muestras y exportación de audio. Las barras y paneles se adaptan mejor a pantallas pequeñas.",
-    "Se conservan las correcciones 4.0.3 del actualizador y los botones compartidos. La actualización sigue sin Timeshift ni puntos de restauración, con firma, integridad y dependencias preparadas antes del reinicio."
+    "CoreOS 4.2 · Edición Corelux.",
+    "Forma unifica el acabado de las apps CoreOS en GTK3 y GTK4: controles en cápsulas, grupos de opciones con radios de 20 px, bordes discretos, espacios consistentes y estados de pulsación. Las superficies que contienen texto conservan un fondo sólido. Las transiciones de ventanas, Eve e isla continúan utilizando Qt Quick y KDE Kirigami.",
+    "Apariencia incorpora un editor con borrador y vista previa. Permite comparar modo claro u oscuro, espaciado cómodo o compacto, material equilibrado, cristal o sólido, mayor contraste y movimiento reducido. Nácar, Órbita y Grafito ofrecen puntos de partida; los cambios se guardan al pulsar Aplicar apariencia. La programación optativa usa modo claro de 07 a 19 h y oscuro durante la noche, siguiendo la hora local sin geolocalización.",
+    "Ajustes, Archivos y centro de control reciben un acabado coordinado. Los grupos de Ajustes y el área de archivos recortan sus hijos dentro de sus esquinas. Archivos incorpora acciones contextuales de copiar, vista previa y papelera para la selección, reutilizando sus operaciones existentes y ocultándolas durante tareas y avisos.",
+    "El material elegido se aplica también al dock, los widgets y la placa de Eve. Mayor contraste usa superficies sólidas. Eve Chat utiliza tarjetas uniformes y un compositor de mensajes más claro; el panel de Eve mejora la legibilidad de sus sugerencias y controles.",
+    "La edición de widgets incorpora Alinear: organiza los widgets en columnas dentro de cada monitor, conserva sus tamaños y evita superposiciones donde hay espacio. La cuadrícula de arrastre utiliza el área de cada pantalla y mantiene sus tarjetas dentro de ella.",
+    "Cuatro fondos Forma originales en resolución 3840×2160: Órbita, Nácar, Salvia y Ocaso. Se añaden a la colección de looks y fondos sin reemplazar el fondo elegido por el usuario.",
+    "Horizonte reemplaza desde cero los tonos de llamada y los sonidos de sistema. Incluye siete melodías originales de llamada —Alba, Prisma, Brisa, Círculos, Órbita, Luz y Gotas—, frases distintas por app y un nuevo inicio con acorde envolvente y notas de fieltro. Mensajes, conexiones, controles, cámara, modos e isla comparten timbres relacionados y ganancias adaptadas a su función.",
+    "Se regeneran también las variantes de sonido de Eve. Los archivos de audio son estéreo PCM de 48 kHz, con ataques suaves, colas atenuadas y reflexiones controladas. Los identificadores de evento y la elección anterior del usuario se conservan; Ajustes mantiene reproducción y parada de las muestras.",
+    "El instalador de actualizaciones evita reconstrucciones duplicadas del arranque en los hooks y el postinst. La preparación resuelve nuevamente APT sin red y comprueba el espacio disponible en /boot antes de ofrecer reiniciar. La finalización registra por separado splash, initramfs y GRUB y conserva su error concreto cuando no se completa. No se crean puntos de restauración ni se utiliza Timeshift para actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v4.1/corelab-core_4.1_all.deb",
-  "sha256": "75c006716b9eabb72a0611a3f12b890b9ebba8f868527732c986753b480d6578",
-  "tamaño": 14443884
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v4.2/corelab-core_4.2_all.deb",
+  "sha256": "7a7a4e34305f24e1dc8d0fcec8ab213da0c01163407e3ddad754e3619111479c",
+  "tamaño": 23012588
 }
