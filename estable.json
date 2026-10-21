@@ -1,18 +1,15 @@
 {
-  "version": "4.0.2",
-  "titulo": "CoreOS 4.0.2 · Edición Corelux",
+  "version": "4.0.3",
+  "titulo": "CoreOS 4.0.3 · Edición Corelux",
   "fecha": "2026-10-20",
   "notas": [
-    "CoreOS 4.0.2 · Edición Corelux.",
-    "Las dependencias de CoreOS se resuelven y descargan antes de ofrecer reiniciar. La preparación usa APT en modo de solo descarga; no instala paquetes en la sesión abierta.",
-    "La instalación al reiniciar usa una caché privada con tamaño y SHA256 de cada dependencia. No necesita descargar por Wi-Fi ni actualizar los índices durante el arranque. Si falta una dependencia, no se fuerza la instalación.",
-    "Se mantiene la actualización sin Timeshift ni puntos de restauración. La recuperación incorpora todos los recursos del splash, incluido el logo blanco y la barra del arranque.",
-    "Los fallos de APT y DPKG muestran su causa concreta, además del registro completo. Se elimina el mensaje genérico de reintentos agotados como único diagnóstico.",
-    "Sonido deja de mostrar valores «(null)» en el mezclador y los perfiles. Los perfiles sin descripción tienen nombres legibles; abrir Ajustes no cambia el perfil activo del dispositivo.",
-    "Se admiten perfiles de audio en formato de lista o diccionario. Las lecturas anteriores del mezclador no reemplazan una actualización más reciente.",
-    "Si el actualizador instalado todavía usa la preparación antigua, ejecutá la herramienta firmada CoreOS-Reparar-Actualizar.py de esta publicación antes de reiniciar. Reemplaza el motor y prepara también las dependencias."
+    "CoreOS 4.0.3 · Edición Corelux.",
+    "Se corrige la compatibilidad con las preparaciones de actualización creadas por 4.0.1. El motor nuevo acepta ese formato tras comprobar firma, paquete y permisos; no lo rechaza por la ausencia de una caché privada que el instalador anterior no conocía.",
+    "Las preparaciones antiguas usan las dependencias instaladas o la caché habitual de APT, sin descargar durante el arranque. Las nuevas conservan la descarga previa y su caché privada verificada. Una caché nueva dañada sigue bloqueando la instalación.",
+    "Los botones principales conservan su fondo y texto al retirar el puntero, perder foco o deshabilitarse. La corrección se aplica en el estilo compartido de las apps CoreOS y los diálogos que lo utilizan.",
+    "Se mantiene la actualización sin Timeshift ni puntos de restauración, con firma e integridad obligatorias. Un fallo al limpiar descargas sobrantes ya no marca como fallida una actualización confirmada."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v4.0.2/corelab-core_4.0.2_all.deb",
-  "sha256": "54a5ea0e58c7af9f4512fd2105c8b86256d19d0173dc2539e5ee114eb09db249",
-  "tamaño": 14417224
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v4.0.3/corelab-core_4.0.3_all.deb",
+  "sha256": "97822cb7bf6caedfa0c8d4c0437d7efde10a08b5add4d56c6593799866799b3d",
+  "tamaño": 14402072
 }
