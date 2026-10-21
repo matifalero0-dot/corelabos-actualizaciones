@@ -1,16 +1,18 @@
 {
-  "version": "4.0.1",
-  "titulo": "CoreOS 4.0.1 · Edición Corelux",
+  "version": "4.0.2",
+  "titulo": "CoreOS 4.0.2 · Edición Corelux",
   "fecha": "2026-10-20",
   "notas": [
-    "CoreOS 4.0.1 · Edición Corelux.",
-    "Se elimina la creación de puntos de restauración del actualizador antiguo de paquetes del sistema. Actualizar no configura Timeshift ni crea copias.",
-    "El instalador de reinicio se repara desde el paquete firmado antes de preparar la actualización. El reparador temporal ya no deja un instalador antiguo para el siguiente arranque. Se sustituye también la integración antigua de copias con APT.",
-    "Se pueden reemplazar preparaciones propias anteriores o fallidas por la descarga nueva verificada, incluso al reintentar la misma versión. Las opciones heredadas ya no activan copias de restauración. Se conserva la protección contra versiones anteriores y actualizadores ajenos.",
-    "Ajustes elimina el anuncio de creación de una copia y permite encontrar una versión más reciente aunque haya otra preparada. La instalación del sistema sigue aplicándose al reiniciar.",
-    "Para equipos cuyo actualizador instalado siga bloqueado por Timeshift, la publicación incluye CoreOS-Reparar-Actualizar.py firmado, que descarga el paquete verificado y repara el instalador para el próximo reinicio."
+    "CoreOS 4.0.2 · Edición Corelux.",
+    "Las dependencias de CoreOS se resuelven y descargan antes de ofrecer reiniciar. La preparación usa APT en modo de solo descarga; no instala paquetes en la sesión abierta.",
+    "La instalación al reiniciar usa una caché privada con tamaño y SHA256 de cada dependencia. No necesita descargar por Wi-Fi ni actualizar los índices durante el arranque. Si falta una dependencia, no se fuerza la instalación.",
+    "Se mantiene la actualización sin Timeshift ni puntos de restauración. La recuperación incorpora todos los recursos del splash, incluido el logo blanco y la barra del arranque.",
+    "Los fallos de APT y DPKG muestran su causa concreta, además del registro completo. Se elimina el mensaje genérico de reintentos agotados como único diagnóstico.",
+    "Sonido deja de mostrar valores «(null)» en el mezclador y los perfiles. Los perfiles sin descripción tienen nombres legibles; abrir Ajustes no cambia el perfil activo del dispositivo.",
+    "Se admiten perfiles de audio en formato de lista o diccionario. Las lecturas anteriores del mezclador no reemplazan una actualización más reciente.",
+    "Si el actualizador instalado todavía usa la preparación antigua, ejecutá la herramienta firmada CoreOS-Reparar-Actualizar.py de esta publicación antes de reiniciar. Reemplaza el motor y prepara también las dependencias."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v4.0.1/corelab-core_4.0.1_all.deb",
-  "sha256": "30e96eb09314a4f66872a2f0bdf51f0b0c50cad4e5b3e4204e6cfebbda362914",
-  "tamaño": 14428588
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v4.0.2/corelab-core_4.0.2_all.deb",
+  "sha256": "54a5ea0e58c7af9f4512fd2105c8b86256d19d0173dc2539e5ee114eb09db249",
+  "tamaño": 14417224
 }
