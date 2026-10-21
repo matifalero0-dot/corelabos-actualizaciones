@@ -1,15 +1,20 @@
 {
-  "version": "4.0.3",
-  "titulo": "CoreOS 4.0.3 · Edición Corelux",
-  "fecha": "2026-10-20",
+  "version": "4.1",
+  "titulo": "CoreOS 4.1 · Edición Corelux",
+  "fecha": "2026-10-21",
   "notas": [
-    "CoreOS 4.0.3 · Edición Corelux.",
-    "Se corrige la compatibilidad con las preparaciones de actualización creadas por 4.0.1. El motor nuevo acepta ese formato tras comprobar firma, paquete y permisos; no lo rechaza por la ausencia de una caché privada que el instalador anterior no conocía.",
-    "Las preparaciones antiguas usan las dependencias instaladas o la caché habitual de APT, sin descargar durante el arranque. Las nuevas conservan la descarga previa y su caché privada verificada. Una caché nueva dañada sigue bloqueando la instalación.",
-    "Los botones principales conservan su fondo y texto al retirar el puntero, perder foco o deshabilitarse. La corrección se aplica en el estilo compartido de las apps CoreOS y los diálogos que lo utilizan.",
-    "Se mantiene la actualización sin Timeshift ni puntos de restauración, con firma e integridad obligatorias. Un fallo al limpiar descargas sobrantes ya no marca como fallida una actualización confirmada."
+    "CoreOS 4.1 · Edición Corelux.",
+    "Escritorio, Eve e isla comparten Qt Quick y KDE Kirigami con selección automática del bucle de renderizado. Se elimina un bloqueo al ejecutar callbacks Python desde el hilo gráfico. Las transiciones usan superficies acotadas al área visible, texturas HiDPI y geometría adaptable.",
+    "Apariencia incorpora controles de calidad gráfica, compatibilidad y liberación de recursos. La configuración automática adapta la carga y la reserva a la batería y al perfil guardado del equipo. PC y laptop reciben los mismos componentes; el diagnóstico distingue versión, GPU, controlador, pantallas y escalado.",
+    "El paso logo–acceso espera la preparación del fondo. El acceso y AOD comparten trayectorias reversibles; las imágenes, escalado y viñetas se preparan fuera del hilo de interfaz. La entrega al escritorio espera dos cuadros pintados y conserva el fondo a resolución física, incluidas varias pantallas.",
+    "Se corrige el error al conservar el fondo por segunda vez. El reloj, formulario, mensajes, llamadas y reproductor se desvanecen antes de entregar la sesión. La cortina replica el oscurecimiento en pantallas secundarias y conserva una salida animada sin compositor.",
+    "El reproductor de bloqueo y AOD mantiene su estado ante interrupciones breves de MPRIS. Las portadas se cargan aparte; el reloj multimedia usa tiempo monotónico. Los controles y el formulario de contraseña tienen posiciones separadas y una transición de disposición. AOD conserva el reproductor atenuado y sin acciones.",
+    "El contador musical de la isla usa cifras tabulares y elimina el salto vertical por segundo. El análisis de música utiliza PCM estéreo a 48 kHz y cuatro bandas cuando NumPy está disponible, con lectura reciente y sin acumulación de audio viejo. Un fallo momentáneo de consulta no reinicia todos los lectores.",
+    "Eve libera la ventana de reserva y termina su proceso tras el período de inactividad; el motor gráfico también libera sus texturas. La próxima invocación vuelve a abrirla mediante su lanzador.",
+    "Se publican los motores e interfaces de FlowCore, Artwork y Estudio que habían quedado fuera de las entregas del escritorio. FlowCore incluye edición vectorial, guías, capas, inspector y formatos compatibles; Artwork trabaja por teselas con capas, pinceles y fotogramas; Estudio incorpora biblioteca, mezcla, automatización, notas MIDI, muestras y exportación de audio. Las barras y paneles se adaptan mejor a pantallas pequeñas.",
+    "Se conservan las correcciones 4.0.3 del actualizador y los botones compartidos. La actualización sigue sin Timeshift ni puntos de restauración, con firma, integridad y dependencias preparadas antes del reinicio."
   ],
-  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v4.0.3/corelab-core_4.0.3_all.deb",
-  "sha256": "97822cb7bf6caedfa0c8d4c0437d7efde10a08b5add4d56c6593799866799b3d",
-  "tamaño": 14402072
+  "paquete": "https://github.com/matifalero0-dot/corelabos-actualizaciones/releases/download/v4.1/corelab-core_4.1_all.deb",
+  "sha256": "75c006716b9eabb72a0611a3f12b890b9ebba8f868527732c986753b480d6578",
+  "tamaño": 14443884
 }
